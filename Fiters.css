@@ -1,0 +1,628 @@
+/* Filters */
+width: 214px;
+height: 1390px;
+background: #FFFFFF;
+/* $ 5000 */
+width: 57px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Section → Section → Form → Heading 4 → Select your destination : */
+width: 198px;
+height: 44px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 23px;
+/* or 164% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → Section → Form → Options */
+height: 25px;
+background: #EFEFEF;
+/* div */
+height: 25px;
+/* All Destinations */
+width: 122.31px;
+height: 23px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+/* or 175% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Heading 4 → Select your date : */
+width: 179px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+height: 24px;
+background: #FFFFFF;
+border: 1px solid #F1F1F1;
+border-radius: 5px;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Heading 4 → Typologies : */
+width: 148px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Sports Activities */
+width: 144px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Family-Friendly */
+width: 134px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Heritage Tours */
+width: 132px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Road Trips */
+width: 93px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Budget Travel */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Culinary Tourism */
+width: 146px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Eco-tourism */
+width: 112px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Adventure Travel */
+width: 148px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Beach Holidays */
+width: 139px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Cultural Tours */
+width: 122px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Heading 4 → Max Price : */
+width: 125px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form */
+height: 4px;
+background: #E4E4E4;
+/* div.ui-slider-range */
+height: 4px;
+background: #434A54;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+/* span.ui-slider-handle */
+height: 16px;
+background: #434A54;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  See only promotions */
+width: 172px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  1 Week */
+width: 52px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  10 Days */
+width: 53px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  15 Days */
+width: 55px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  5 Days */
+width: 50px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Heading 4 → Durations : */
+width: 131px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form → icon-down-arrow-grey.svg */
+width: 13px;
+height: 12px;
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg fill */
+width: 12px;
+height: 12px;
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg */
+width: 12px;
+height: 12px;
+transform: rotate(180deg);
+/* Group */
+transform: rotate(180deg);
+/* Vector */
+background: #878787;
+transform: rotate(180deg);
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Challenging */
+width: 86px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Difficult */
+width: 56px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Easy */
+width: 34px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  Medium */
+width: 62px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form */
+height: 1px;
+background: #F9F9F9;
+/* Section → Section → Form → Heading 4 → Difficulty : */
+width: 119px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form → icon-down-arrow-grey.svg */
+width: 13px;
+height: 12px;
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg fill */
+width: 12px;
+height: 12px;
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg */
+width: 12px;
+height: 12px;
+transform: rotate(180deg);
+/* Group */
+transform: rotate(180deg);
+/* Vector */
+background: #878787;
+transform: rotate(180deg);
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  0 */
+width: 18px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  16 */
+width: 20px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  18 */
+width: 22px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form → Input */
+box-sizing: border-box;
+width: 13px;
+height: 13px;
+background: #FFFFFF;
+border: 1px solid #767676;
+border-radius: 2.5px;
+/* Section → Section → Form →  5 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Section → Section → Form */
+background: #F9F9F9;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 214% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Form → icon-down-arrow-grey.svg */
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg fill */
+transform: rotate(180deg);
+/* icon-down-arrow-grey.svg */
+transform: rotate(180deg);
+/* Group */
+transform: rotate(180deg);
+/* Vector */
+background: #878787;
+transform: rotate(180deg);

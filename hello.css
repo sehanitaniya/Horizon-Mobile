@@ -1,0 +1,48 @@
+/* Hello Card */
+width: 428px;
+height: 812px;
+background: #FFFFFF;
+/* Bubbles */
+/* bubble 02 */
+background: #F1FAF8;
+transform: rotate(108deg);
+background: #1BBC9B;
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 01 */
+/* dot 01 */
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 01 */
+/* dot 01 */
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 02 */
+/* dot 02 */
+background: #1BBC9B;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* Card Shape */
+background: #FFFFFF;
+box-shadow: 0px 10px 37px rgba(0, 0, 0, 0.160784);
+border-radius: 30px;
+/* Headline */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.28px;
+color: #202020;
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consectetur turpis. Morbi eu eleifend lacus. */
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 27px;
+/* or 142% */
+text-align: center;
+color: #000000;
+background: url(.jpg);
+border-radius: 30px;

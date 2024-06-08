@@ -1,0 +1,134 @@
+/* 45 Cart */
+width: 428px;
+height: 812px;
+background: #FFFFFF;
+/* Title */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+letter-spacing: -0.22px;
+color: #000000;
+background: #F5F5F5;
+/* Title */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+letter-spacing: -0.18px;
+color: #202020;
+/* Title */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+letter-spacing: -0.2px;
+color: #000000;
+/* Button Shop */
+/* Rectangle 3 */
+background: #004CFF;
+border-radius: 11px;
+/* Checkout */
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+text-align: center;
+color: #F3F3F3;
+/* div.elementor-icon */
+background: #1BBC9B;
+border-radius: 21px;
+/* 3 */
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height, or 124% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Section → List → Item → Link → h-square-01-300x300.jpeg */
+background: url(.jpg);
+border-radius: 15px;
+/* Section → List → Item → Link → Heading 2 → Baggage Insurance */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → List → Item → Link → $ */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Section → List → Item → Link → h-square-06-300x300.jpeg */
+background: url(.jpg);
+border-radius: 15px;
+/* Section → List → Item → Link → Heading 2 → Health Insurance */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → List → Item → Link → $ */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+background: rgba(255, 255, 255, 0.7);
+background: url(horizon-explorers-high-resolution-logo-transparent (3));
+/* Link */
+background: #1BBC9B;
+border-radius: 5px;
+/* Search */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Symbol */
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #434A54;

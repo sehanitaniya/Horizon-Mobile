@@ -1,0 +1,108 @@
+main{
+margin: auto;
+width: 428px;
+min-height: 100vh;
+background: #FFFFFF;
+}
+body{
+margin:0;
+padding: 0;
+}
+.start-p{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+color: #202020;
+mix-blend-mode: normal;
+opacity: 0.9;
+}
+.start-p  start-flex{
+margin: auto;
+ECHO is off.
+}
+.rowndad-b{
+border-radius: 50%;
+background: #1BBC9B;
+color: white;
+}
+.btn-start{
+width: 335px;
+height: 61px;
+background: #1BBC9B;
+border-radius: 16px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+border: 0;
+color: #F3F3F3;
+}
+.logo{
+width: 188.99px;
+height: 58.15px;
+}
+.heading-4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+}
+.bubble2{
+background: #F2F5FE;
+transform: rotate(158deg);
+}
+.bubble2{
+width: 243.63px;
+height: 266.77px;
+background: #1BBC9B;
+}
+.create-cancel{
+width: 45px;
+height: 26px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+color: #202020;
+mix-blend-mode: normal;
+opacity: 0.9;
+}
+.create-upload{
+width: 90px;
+height: 90px;
+box-sizing: border-box;
+border: 2px dashed #1BBC9B;
+border: 2px solid #1BBC9B;
+border: 2px solid #1BBC9B;
+}
+.create-button{
+width: 335px;
+height: 61px;
+background: #1BBC9B;
+border-radius: 16px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+color: #F3F3F3;
+}
+.create-acc{
+width: 197px;
+height: 108px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 54px;
+letter-spacing: -0.5px;
+color: #202020;
+}

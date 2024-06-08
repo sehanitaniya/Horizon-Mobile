@@ -1,0 +1,1187 @@
+/* About us */
+width: 428px;
+height: 8500px;
+background: #FFFFFF;
+/* Section → Section → Heading 5 → $ 450 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFD205;
+/* Section → Section → Heading 5 → $ 480 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #F3A46B;
+/* Section → Section → Heading 5 → $ 890 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #F76570;
+/* Section → Section → Heading 5 → $ 490 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #1BBC9B;
+/* Section → Section → Heading 5 → $ 400 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #14B9D5;
+/* Section → Section → Heading 5 → $ 750 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #F76570;
+/* Symbol */
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Section */
+/* div.elementor-background-overlay */
+background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%);
+opacity: 0.5;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 60px;
+/* identical to box height, or 200% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Explore the world with us, one adventure at a time. */
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #1BBC9B;
+/* Rectangle 1 */
+background: #1BBC9B;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 60px;
+/* or 200% */
+display: flex;
+align-items: center;
+color: #000000;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+/* or 127% */
+display: flex;
+align-items: center;
+color: #000000;
+/* We are a team of experienced travel experts who specialize in planning and organizing unforgettable travel experiences for our clients with a wide range of travel services, including flight bookings, hotel reservations and more. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Heading 5 → Local travel guides */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #000000;
+background: #434A54;
+border-radius: 2px;
+/* span.elementor-progress-text */
+/* Link */
+background: #1BBC9B;
+border-radius: 5px;
+/* MORE INFO */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: url(.jpg);
+border-radius: 15px;
+/* Section → Link */
+background: #1BBC9B;
+border-radius: 5px;
+/* Purchase Theme */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: #14B9D5;
+border-radius: 5px;
+/* All Demos */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* i-parallax-06-package-04-1024x683.jpeg */
+background: url();
+border-radius: 15px;
+/* i-parallax-05-package-03-1024x683.jpeg */
+background: url();
+border-radius: 15px;
+/* i-parallax-04-package-02-1024x683.jpeg */
+background: url(.jpg);
+border-radius: 15px;
+/* i-parallax-07-destination-01-1024x683.jpeg */
+background: url(.jpg);
+border-radius: 15px;
+background: url(.jpg);
+/* Button - Next slide */
+transform: matrix(1, 0, 0, -1, 0, 0);
+background: #FFFFFF;
+transform: matrix(1, 0, 0, -1, 0, 0);
+/* Button - Previous slide */
+transform: matrix(1, 0, 0, -1, 0, 0);
+/* Vector */
+background: #FFFFFF;
+transform: matrix(1, 0, 0, -1, 0, 0);
+/* Section → Section → Heading 6 → Let us help you plan your next adventure */
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 45px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+color: #1BBC9B;
+/* Group 1 */
+background: #1BBC9B;
+border-radius: 5px;
+/* vacation */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 60px;
+/* or 200% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Heading 1 → Perfect   */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Various destinations  */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Group 20 */
+/* Section → Section → b-icon-01.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Airline Tickets */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Our travel agency specializes in providing our */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Section → Section → b-icon-02.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Ocean Cruises */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Luxurious and comfortable way of travel, and */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Group 22 */
+/* Section → Section → b-icon-04.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Means of Transport */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Our travel agency offers a variety of means of */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Group 23 */
+/* Section → Section → b-icon-03.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Travel itineraries */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Our team of experts will take care of all the planning */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Section → Section → b-icon-05.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Travel Insurance */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → Travel insurance is an essential part of any trip, */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Section → Section → b-icon-06.png */
+background: url(.png);
+/* Section → Section → Heading 4 → Local Guide */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section → Section → We can connect you with guides who will take you */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #6E6E6E;
+/* Group 26 */
+background: url(.jpg);
+opacity: 0.5;
+/* Rectangle 20 */
+background: rgba(67, 74, 84, 0.43);
+/* Heading 5 → Exclusive travel deals */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 32px;
+/* or 108% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: #1BBC9B;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Section → Section → Heading 6 → Happy Travelers Share Their Experiences */
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 45px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #1BBC9B;
+/* Section → Section → Heading 1 → Stories from    */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+/* or 147% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → Section → Heading 1 → Satisfied */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+/* or 147% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #1BBC9B;
+/* Section → Section → Heading 1 →   Customers */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+/* or 147% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* I had the most amazing trip thanks to this travel agency. They took care of everything from flights to accommodations and even helped me plan out my itinerary. I highly recommend them. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* g-avatar-01.jpeg */
+background: url();
+border-radius: 999px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Cite → New York */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+background: #1BBC9B;
+border-radius: 3.5px;
+/* Section → Section → Button - Go to slide 2 */
+background: #000000;
+border-radius: 3.5px;
+/* Section → Section → Button - Go to slide 3 */
+background: #000000;
+border-radius: 3.5px;
+background: url(.jpg);
+border-radius: 15px;
+background: url();
+border-radius: 15px;
+/* Section → Section → Descriptions → Term → Link → i-parallax-18.jpeg */
+background: url(.jpg);
+border-radius: 15px;
+/* Section → Section → Descriptions → Term → Link → i-parallax-17.jpeg */
+background: url();
+border-radius: 15px;
+/* Section → Section → Descriptions → Term → Link → i-parallax-16.jpeg */
+background: url();
+border-radius: 15px;
+/* Section */
+background: url(.jpg);
+/* Rectangle 21 */
+background: rgba(255, 255, 255, 0.6);
+/* Heading 6 */
+/* Always by your side */
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Start your Vacation */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 60px;
+/* identical to box height, or 200% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Section */
+box-sizing: border-box;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Heading 2 → 37 $  */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+/* identical to box height, or 152% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Heading 2 → / h */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 46px;
+/* identical to box height, or 325% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Section */
+box-sizing: border-box;
+/* Heading 3 → Bicycle Rental */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Heading 2 → 54 $  */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+/* identical to box height, or 152% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Heading 2 → / h */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 46px;
+/* identical to box height, or 325% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Section */
+box-sizing: border-box;
+/* Heading 3 → Walking Tours */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Heading 2 → 67 $  */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+/* identical to box height, or 152% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 46px;
+/* identical to box height, or 325% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Heading 3 → Kayak Tour */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 38px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Heading 2 → 82 $  */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+/* identical to box height, or 152% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+/* Heading 2 → / h */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 46px;
+/* identical to box height, or 325% */
+display: flex;
+align-items: center;
+text-align: right;
+color: #000000;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 46px;
+/* or 190% */
+display: flex;
+align-items: center;
+color: #000000;
+background: #1BBC9B;
+border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+background: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+background: url(.jpg);
+border-radius: 15px 15px 0px 0px;
+/* div.elementor-widget-container */
+background: #434A54;
+border-radius: 30px;
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* List → Item → 1 Week */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* List → Item → Thailand */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* Symbol */
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+color: #1BBC9B;
+/* span.elementor-divider-separator */
+box-sizing: border-box;
+/* Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #6E6E6E;
+/* span.elementor-divider-separator */
+box-sizing: border-box;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #6E6E6E;
+/* Heading 3 → $ 490 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #000000;
+/* Link */
+background: #1BBC9B;
+border-radius: 5px;
+/* Details */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Section → Heading 6 → True Roaming Tales */
+font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 24.88px;
+line-height: 45px;
+/* identical to box height, or 181% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #1BBC9B;
+/* useful */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 53px;
+/* identical to box height, or 177% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → Heading 1 →   News */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 53px;
+/* or 177% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → Heading 1 → Latest   */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 53px;
+/* or 177% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+/* Section → Section */
+background: url();
+filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
+border-radius: 15px;
+/* div.elementor-background-overlay */
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #000000 100%);
+opacity: 0.8;
+border-radius: 15px;
+/* div.elementor-widget-container */
+background: #434A54;
+border-radius: 30px;
+/* Link → April 7, 2023 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+/* Heading 3 → Link → Discover the Hidden Gems */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 28px;
+/* or 120% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+/* Link → Benefits of traveling alone, from the freedom to discover new places with */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: url();
+filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
+border-radius: 15px;
+/* div.elementor-background-overlay */
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #000000 100%);
+opacity: 0.8;
+border-radius: 15px;
+/* div.elementor-widget-container */
+background: #434A54;
+border-radius: 30px;
+/* Link → April 7, 2023 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+/* Heading 3 → Link → Must-See Landmarks */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 26px;
+/* or 115% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+/* Link → Iconic landmarks that make Europe one of the world's most popular travel */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* or 121% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+/* Section → Section */
+background: url();
+filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
+border-radius: 15px;
+/* div.elementor-background-overlay */
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #000000 100%);
+opacity: 0.8;
+border-radius: 15px;
+/* div.elementor-widget-container */
+background: #434A54;
+border-radius: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+/* Heading 3 → Link → Traveling on a Budget */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 26px;
+/* or 115% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: url();
+filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.1));
+border-radius: 15px;
+/* div.elementor-background-overlay */
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #000000 100%);
+opacity: 0.8;
+border-radius: 15px;
+/* div.elementor-widget-container */
+background: #434A54;
+border-radius: 30px;
+/* Link → April 7, 2023 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+/* Heading 3 → Link → Explore the Wonders */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 38px;
+/* or 163% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+/* Link → Must-see destinations and experiences, including wildlife and cultural */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+/* Rectangle 11 */
+background: rgba(67, 74, 84, 0.98);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+/* or 127% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* text */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* symbol */
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: #1BBC9B;
+border-radius: 5px;
+/* contact@Horizon Explorers.com */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+/* or 150% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: #FFFFFF;
+box-shadow: 0px 0px 16px 12px #FFFFFF;
+/* horizon-explorers-high-resolution-logo-transparent (3) 2 */
+background: url(horizon-explorers-high-resolution-logo-transparent (3));
+/* Vector */
+/* Neutral/gray-CBCBCB */
+background: #CBCBCB;
+/* 2024 Fuchsius (PVT) Ltd. All Rights Reserved. */
+/* captionMD */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 180%;
+/* identical to box height, or 22px */
+text-transform: capitalize;
+/* neutral/gray(cbcbcb) */
+color: #CBCBCB;
+/* Frame 11 */
+background: rgba(255, 255, 255, 0.7);
+/* horizon-explorers-high-resolution-logo-transparent (3) 1 */
+background: url(horizon-explorers-high-resolution-logo-transparent (3));
+/* Link */
+background: #1BBC9B;
+border-radius: 5px;
+/* Search */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+/* Symbol */
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+color: #434A54;

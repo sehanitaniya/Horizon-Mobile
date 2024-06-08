@@ -1,0 +1,88 @@
+/* Ready Card */
+width: 428px;
+height: 812px;
+background: #FFFFFF;
+/* Bubbles */
+width: 751.12px;
+height: 958.84px;
+/* bubble 02 */
+width: 377.02px;
+height: 442.65px;
+background: rgba(189, 234, 225, 0.19);
+transform: rotate(108deg);
+/* bubble 01 */
+width: 402.87px;
+height: 442.65px;
+background: #1BBC9B;
+/* Dots */
+width: 140px;
+height: 20px;
+/* dot 01 */
+width: 20px;
+height: 20px;
+/* dot 01 */
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 01 */
+width: 20px;
+height: 20px;
+/* dot 01 */
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 01 */
+width: 20px;
+height: 20px;
+/* dot 01 */
+background: #BFECE3;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* dot 02 */
+width: 20px;
+height: 20px;
+/* dot 02 */
+background: #1BBC9B;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+/* Card Shape */
+width: 372.07px;
+background: #FFFFFF;
+box-shadow: 0px 10px 37px rgba(0, 0, 0, 0.160784);
+border-radius: 30px;
+/* Button */
+/* Rectangle 3 */
+background: #1BBC9B;
+border-radius: 16px;
+/* Let's Start */
+width: 112.99px;
+height: 31px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 31px;
+/* identical to box height, or 141% */
+color: #FFFFFF;
+/* Headline */
+height: 36px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.28px;
+color: #202020;
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+height: 58px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 27px;
+/* or 142% */
+text-align: center;
+color: #000000;
+/* div.e-gallery-image */
+width: 372px;
+height: 337px;
+background: url(.jpg);
+border-radius: 30px;
