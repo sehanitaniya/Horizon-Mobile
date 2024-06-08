@@ -1,9 +1,50 @@
 main{
 margin: auto;
-width: 428px;
+width: 375px;
 min-height: 100vh;
 background: #FFFFFF;
 }
+/* Common classes */
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-center{
+    align-items:center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/* common classes end */
 body{
 margin:0;
 padding: 0;
@@ -18,16 +59,27 @@ color: #202020;
 mix-blend-mode: normal;
 opacity: 0.9;
 }
+.start-flex{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    align-items: center;
+    text-wrap: nowrap;
+}
 .start-p  start-flex{
 margin: auto;
-ECHO is off.
 }
 .rowndad-b{
 border-radius: 50%;
 background: #1BBC9B;
 color: white;
+border: none;
+width: 40px;
+height: 40px;
 }
 .btn-start{
+    margin-top: 10%;
 width: 335px;
 height: 61px;
 background: #1BBC9B;
@@ -44,6 +96,7 @@ color: #F3F3F3;
 .logo{
 width: 188.99px;
 height: 58.15px;
+margin-top: 50%;
 }
 .heading-4{
 font-family: 'Poppins';
@@ -51,6 +104,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 25px;
+margin-top: 20%;
 }
 .bubble2{
 background: #F2F5FE;
@@ -78,9 +132,7 @@ opacity: 0.9;
 width: 90px;
 height: 90px;
 box-sizing: border-box;
-border: 2px dashed #1BBC9B;
-border: 2px solid #1BBC9B;
-border: 2px solid #1BBC9B;
+margin-bottom: 10%;
 }
 .create-button{
 width: 335px;
@@ -96,6 +148,8 @@ text-align: center;
 color: #F3F3F3;
 }
 .create-acc{
+    margin-top: 35%;
+    margin-bottom: 15%;
 width: 197px;
 height: 108px;
 font-family: 'Raleway';
@@ -105,4 +159,12 @@ font-size: 50px;
 line-height: 54px;
 letter-spacing: -0.5px;
 color: #202020;
+}
+input, select{
+    width: calc(100% - 1vw);
+    border-radius: 25px;
+    height: 2rem;
+    background-color: #e0f3ef;
+    border: none;
+    margin: 10px 0px;
 }
