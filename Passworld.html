@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="password.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <main>
-        <img>
-        <img>
+     <main class="relative">
+        <img src="./image/passBubble.svg" class="absolute">
+        <div class="absolute flex flex-column align-center passTop">
+        <img src="./image/pass1.svg">
         <h1>Hello, Nicky....!!</h1>
         <p>Type Your Password</p>
-        <form>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+        <form class="flex-row">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
+            <input type="number" maxlength="1">
         </form>
+       </div>
         <div class="flex flex-row">
             <p class="center">Not you?</p>
             <button type="submit" class="rowndad color-primary"><i class="fa fa-arrow-write"></i></button>
