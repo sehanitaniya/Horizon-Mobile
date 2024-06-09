@@ -1,131 +1,23 @@
-/* Password Recovery */
-width: 428px;
-height: 812px;
-background: #FFFFFF;
-/* Bubbles */
-width: 555.88px;
-height: 534.73px;
-/* bubble 02 */
-width: 373.53px;
-height: 442.65px;
-background: #F2F5FE;
-transform: rotate(-110deg);
-/* bubble 01 */
-width: 402.87px;
-height: 442.65px;
-background: #1BBC9B;
-transform: rotate(92deg);
-/* Title */
-width: 45px;
-height: 26px;
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 26px;
-/* identical to box height, or 173% */
-text-align: center;
-color: #202020;
-mix-blend-mode: normal;
-opacity: 0.9;
-/* SMS */
-width: 199px;
-height: 40px;
-/* Rectangle */
-background: #F2F5FE;
-border-radius: 18px;
-/* Title */
-height: 19px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 19px;
-/* identical to box height, or 127% */
-text-align: center;
-letter-spacing: -0.15px;
-color: #1BBC9B;
-/* Check */
-/* Ellipse 178 */
-background: #1BBC9B;
-border: 2px solid #FFFFFF;
-/* Icon feather-check */
-width: 6.96px;
-height: 4.78px;
-border: 3px solid #FFFFFF;
-/* Email */
-width: 198px;
-height: 40px;
-/* Rectangle */
-background: rgba(247, 101, 112, 0.22);
-border-radius: 18px;
-/* Title */
-height: 18px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-/* identical to box height */
-text-align: center;
-letter-spacing: -0.15px;
-color: #03611D;
-/* Check Empty */
-/* Ellipse 178 */
-background: rgba(247, 101, 112, 0.79);
-border: 2px solid #FFFFFF;
-/* How you would like to restore your password? */
-width: 290px;
-height: 57px;
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 19px;
-line-height: 27px;
-/* or 142% */
-text-align: center;
-color: #000000;
-/* Title */
-width: 193px;
-height: 30px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 21px;
-line-height: 30px;
-/* identical to box height, or 143% */
-text-align: center;
-letter-spacing: -0.21px;
-color: #202020;
-/* Button */
-width: 335px;
-height: 61px;
-/* Rectangle 454 */
-background: #1BBC9B;
-border-radius: 16px;
-/* Next */
-height: 31px;
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 31px;
-/* identical to box height, or 141% */
-text-align: center;
-color: #F3F3F3;
-/* ellipse */
-width: 140px;
-background: #FFFFFF;
-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.160784);
-/* image */
-width: 130px;
-height: 130px;
-/* 8C7948DA-DE0D-4C75-A489-906685B1197B */
-/* 8C7948DA-DE0D-4C75-A489-906685B1197B */
-background: #000000;
-/* 8DBD582D-57D4-485E-8E76-671287936725 */
-background: url(Image.png);
-/* artist-2 1 */
-width: 132.68px;
-height: 151.43px;
-background: url(artist-2.jpg);
+p{
+    text-align: center;
+}
+.radio{
+    border-radius: 20px;
+    height: 40px;
+    width:175px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.radio input{
+    width: 0px;
+    height: 0px;
+}
+.radio div{
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    background-color: var(--green);
+}
+.red div{
+    background-color: var(--red);
+}

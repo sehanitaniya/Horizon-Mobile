@@ -13,7 +13,9 @@ main {
   min-height: 100vh;
   background: #ffffff;
 }
+input[type="radio"]{
 
+}
 /* Common classes */
 .flex {
   display: flex;
@@ -150,6 +152,15 @@ margin: 0px;
 }
 .bg-gray{
   background-color:var(--gray);
+}
+.bg-light-green{
+  background-color: var(--light-green);
+}
+.bg-light-red{
+  background-color: var(--light-red);
+}
+.bg-pink{
+  background-color: var(--pink) !important;
 }
 .t-green{
     color: var(--green);
