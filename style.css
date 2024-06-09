@@ -160,11 +160,23 @@ line-height: 54px;
 letter-spacing: -0.5px;
 color: #202020;
 }
+
 input, select{
     width: calc(100% - 1vw);
     border-radius: 25px;
     height: 2rem;
+    /* background-color: #13715d; */
     background-color: #e0f3ef;
     border: none;
-    margin: 10px 0px;
+    margin: 5px 0px;
+}
+.country-dropdown{
+    width: 18%;
+    border-right: 1px solid black;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+.country-text-indent{
+    text-indent: 20%;
 }
