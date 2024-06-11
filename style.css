@@ -1,11 +1,11 @@
-:root{
-    --green:#3cc09a;
-    --light-green:#d2edee;
-    --red:#f2001f;
-    --light-red:#f1778b;
-    --purple:#3f0eff;
-    --pink:#fb9ed7;
-    --gray:#444954;
+:root {
+  --green: #3cc09a;
+  --light-green: #d2edee;
+  --red: #f2001f;
+  --light-red: #f1778b;
+  --purple: #3f0eff;
+  --pink: #fb9ed7;
+  --gray: #444954;
 }
 main {
   margin: auto;
@@ -13,8 +13,7 @@ main {
   min-height: 100vh;
   background: #ffffff;
 }
-input[type="radio"]{
-
+input[type="radio"] {
 }
 /* Common classes */
 .flex {
@@ -140,35 +139,44 @@ input[type="radio"]{
 .w-full {
   width: 100%;
 }
-.no-space{
-padding: 0px;
-margin: 0px;
+.mb-50 {
+  margin-bottom: 50px;
 }
-.roundend{
-    border-radius: 50px;
-} 
-.bg-green{
-    background-color: var(--green);
+.mt-50 {
+  margin-top: 50px;
 }
-.bg-gray{
-  background-color:var(--gray);
+.no-space {
+  padding: 0px;
+  margin: 0px;
 }
-.bg-light-green{
+.roundend {
+  border-radius: 50px;
+}
+.bg-green {
+  background-color: var(--green);
+}
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-light-green {
   background-color: var(--light-green);
 }
-.bg-light-red{
+.bg-light-red {
   background-color: var(--light-red);
 }
-.bg-pink{
-  background-color: var(--pink) !important;
+.bg-pink {
+  background-color: var(--pink);
 }
-.t-green{
-    color: var(--green);
+.bg-purple {
+  background-color: var(--purple);
 }
-.t-white{
+.t-green {
+  color: var(--green);
+}
+.t-white {
   color: #ffffff;
 }
-.no-border{
+.no-border {
   border: none;
 }
 /* common classes end */
@@ -177,8 +185,8 @@ body {
   padding: 0;
   font-family: inter;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 .start-p {
   font-family: "Nunito Sans";
@@ -213,7 +221,7 @@ button{
   margin-top: 10%;
   width: 335px;
   height: 61px;
-  background: #1bbc9b;
+  /* background-color: var(--green); */
   border-radius: 16px;
   font-family: "Nunito Sans";
   font-style: normal;
@@ -225,7 +233,7 @@ button{
   color: #f3f3f3;
 }
 .btn-green {
-  background: #1bbc9b;
+  background: var(--green);
   border-radius: 5px;
   font-style: normal;
   font-weight: 700;
@@ -237,7 +245,7 @@ button{
   padding: 4px 20px;
 }
 .btn-purple {
-  background: #3f0eff;
+  background: var(--purple);
   border-radius: 10px;
   font-style: normal;
   font-weight: 200;
@@ -252,14 +260,12 @@ button{
   width: 188.99px;
   height: 58.15px;
   margin: 10px 0px;
-
 }
-.logo-start{
+.logo-start {
   margin-top: 50%;
-
 }
-nav .logo{
-    width: 120px;
+nav .logo {
+  width: 120px;
   height: auto;
   margin: 10px 0px;
 }
@@ -346,30 +352,92 @@ select {
   text-indent: 20%;
 }
 
-
 /* Footer */
-footer{
-    padding-top: 50px;
-    padding-bottom: 25px;
-    color: #e0f3ef;
-    background-color: #484d57;
+footer {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #e0f3ef;
+  background-color: #484d57;
 }
-footer h1{
-    text-align: center;
+footer h1 {
+  text-align: center;
 }
-.social_icons img{
-    width: 20px;
+.social_icons img {
+  width: 20px;
 }
-.copyright p{
-    font-size: 0.8rem;
-    font-weight: 200;
+.copyright p {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
-.oval{
-    width: 110px;
-    height: 35px;
-    background: #FFFFFF;
-border-radius: 50%;
-box-shadow: 0px 0px 16px 12px #FFFFFF;
+.oval {
+  width: 110px;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px 12px #ffffff;
+}
+footer .logo {
+  width: 90%;
+  margin: 0px;
+  height: auto;
+  padding: 3px;
+}
+.page-title {
+  width: 100%;
+  height: 243px;
+  text-align: center;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+[data-page-name="blog"] {
+  background-image: url(./image/page_images/blog.svg);
+}
+[data-page-name="search"] {
+  background-image: url(./image/page_images/search.svg);
+}
+[data-page-name="single_page"] {
+  background-image: url(./image/page_images/single_page.svg);
+}
+[data-page-name="archive"] {
+  background-image: url(./image/page_images/archive.svg);
+}
+[data-page-name="preview"] {
+  background-image: url(./image/page_images/preview.svg);
+}
+[data-page-name="destination"] {
+  background-image: url(./image/page_images/destination.svg);
+}
+[data-page-name="technologies"] {
+  background-image: url(./image/page_images/technologies.svg);
+}
+[data-page-name="about_us"] {
+  background-image: url(./image/page_images/about_us.svg);
+}
+[data-page-name="price"] {
+  background-image: url(./image/page_images/price.svg);
+}
+[data-page-name="services"] {
+  background-image: url(./image/page_images/services.svg);
+}
+[data-page-name="contact-us"] {
+  background-image: url(./image/page_images/contact-us.svg);
+}
+[data-page-name="shop"] {
+  background-image: url(./image/page_images/shop.svg);
+}
+
+/* Tourist Hotspots */
+
+.styled-font {
+  font-family: "Reenie Beanie";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29.8828px;
+  line-height: 45px;
+  color: var(--green);
 }
 footer .logo{
     width: 90%;
