@@ -1,83 +1,15 @@
-/* Login */
-width: 428px;
-height: 812px;
-background: #FFFFFF;
-/* Bubbles */
-/* bubble 04 */
-background: #F2F5FE;
-transform: rotate(108deg);
-/* bubblle 03 */
-background: #1BBC9B;
-transform: rotate(-156deg);
-/* bubble 02 */
-background: #F2F5FE;
-transform: rotate(158deg);
-/* bubble 01 */
-background: #1BBC9B;
-/* Title */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 19px;
-line-height: 35px;
-/* identical to box height, or 184% */
-color: #202020;
-/* heart */
-background: #000000;
-/* Title */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 52px;
-line-height: 61px;
-/* identical to box height */
-letter-spacing: -0.52px;
-color: #202020;
-/* Title */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 26px;
-/* identical to box height, or 173% */
-text-align: center;
-color: #202020;
-mix-blend-mode: normal;
-opacity: 0.9;
-/* Form */
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 15.764px 19.705px;
-gap: 9.85px;
-background: rgba(27, 188, 155, 0.16);
-border-radius: 59.115px;
-/* Email or Phone Number */
-width: 294.59px;
-height: 19px;
-/* Poppins/Medium/14 */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 140%;
-/* or 20px */
-color: #707070;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-/* Next Button */
-/* Rectangle 454 */
-background: #1BBC9B;
-border-radius: 16px;
-/* Next */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 31px;
-/* identical to box height, or 141% */
-text-align: center;
-color: #F3F3F3;
+.login-div{
+    margin-top: 363px;
+
+}
+.login-form{
+    margin-top: 13%;
+}
+
+.login-h1{
+    margin-top: 10%;
+
+}
+.email{
+    text-indent: 8%;
+}

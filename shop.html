@@ -5,10 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <main>
-        
+     <main class="flex flex-column align-center">
+        <section class="page-title" data-page-name="shop">Shop</section>
+        <div class="self-end sorting-text">Default sorting</div>
+        <item class="flex flex-column align-center g-r-4">
+            <img src="./image/items/baggage_insuarance.png" alt="Baggage Insuarance">
+            <h2 class="no-space">Baggage Insuarance</h2>
+            <h3 class="no-space">$50.00</h3>
+            <button class="btn-green mb-50">Add to cart</button>
+        </item><item class="flex flex-column align-center g-r-4">
+            <img src="./image/items/health_insuarance.svg" alt="Health Insuarance">
+            <h2 class="no-space">Health Insuarance</h2>
+            <h3 class="no-space">$220.00</h3>
+            <button class="btn-green mb-50">Add to cart</button>
+        </item><item class="flex flex-column align-center g-r-4 relative">
+            <img src="./image/items/medical_insuarance.svg" alt="Medical Insuarance">
+            <div class="absolute roundend bg-gray sale">Sale!</div>
+            <h2 class="no-space">Medical Insuarance</h2>
+            <h3 class="no-space"><span style="text-decoration: line-through; font-weight: 300;">$78.00</span> $45.00</h3>
+            <button class="btn-green mb-50">Add to cart</button>
+        </item><item class="flex flex-column align-center g-r-4 relative">
+            <img src="./image/items/tour_operator_liability.svg" alt="Tour Operator Liability">
+            <div class="absolute roundend bg-gray sale">Sale!</div>
+            <h2 class="no-space">Tour Operator Liability</h2>
+            <h3 class="no-space"><span style="text-decoration: line-through; font-weight: 300;">$70.00</span> $45.00</h3>
+            <button class="btn-green mb-50">Add to cart</button>
+        </item>
      </main>
     
 </body>

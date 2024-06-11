@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <img src="image/bubble1.svg" class="bubble1">
-        <img src="image/bubble2.svg"   class="bubble2">
-        <h1 class="create-acc"> Create Account</h1>
-        <img src="image/upload.svg" class="create-upload">
-        <form>
-            <input type="">
-            <input>
-            <input>
-            <select></select>
-            <button>
-
-            </button>
-            <button class="create-button">Done</button>
-            <h1 class="create-cancel">Cancel</h1>
-        </form>
+    <main class="relative">
+        <img src="image/bubble1.svg" class="bubble1 absolute">
+        
+        <div class="flex flex-column absolute align-center">
+            <h1 class="create-acc"> Create Account</h1>
+            <img src="image/upload.svg" class="create-upload">
+            <form class="flex flex-column align-center">
+                <div>
+                    <input type="">
+                    <input>
+                    <input>
+                    <select class="absolute country-dropdown"></select>
+                    <input type="number" class="country-text-indent" name="" id="">
+                </div>
+                <button class="btn-start">Done</button>
+                <h1 class="create-cancel">Cancel</h1>
+            </form>
+        </div>
     </main>
     
 </body>
