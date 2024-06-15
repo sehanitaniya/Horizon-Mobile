@@ -7,6 +7,7 @@
   --pink:  #F87E88;
 
   --gray: #444954;
+  ---white: #f2f2f2;
 }
 main {
   margin: auto;
@@ -140,6 +141,21 @@ input[type="radio"] {
 .w-full {
   width: 100%;
 }
+.w-fit {
+  width: fit-content;
+}
+.w-max {
+  width: max-content;
+}
+.h-full {
+  height: 100%;
+}
+.h-fit {
+  height: fit-content;
+}
+.h-max {
+  height: max-content;
+}
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -170,6 +186,9 @@ input[type="radio"] {
 }
 .bg-purple {
   background-color: var(--purple);
+}
+.bg-white {
+  background-color: var(--white);
 }
 .t-green {
   color: var(--green);
@@ -426,7 +445,7 @@ footer .logo {
   background-image: url(./image/page_images/services.svg);
 }
 [data-page-name="contact-us"] {
-  background-image: url(./image/page_images/contact-us.svg);
+  background-image: url(./image/page_images/contact_us.svg);
 }
 [data-page-name="shop"] {
   background-image: url(./image/page_images/shop.svg);
@@ -442,9 +461,13 @@ footer .logo {
   line-height: 45px;
   color: var(--green);
 }
-footer .logo{
-    width: 90%;
-    margin: 0px;
-    height: auto;
-    padding: 3px;
+footer .logo {
+  width: 90%;
+  margin: 0px;
+  height: auto;
+  padding: 3px;
+}
+.btn-text-sm {
+  font-weight: 400;
+  font-size: 1rem;
 }

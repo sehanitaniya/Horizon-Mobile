@@ -1,10 +1,7 @@
-
-.dot2 span{
-width:15px;
-height: 15px;
-border-radius: 50px;
-background-color: var(--red#f2001f);
-display: block;
-
-
+.dot2 span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: var(--red);
+  display: block;
 }
