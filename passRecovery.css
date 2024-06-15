@@ -21,3 +21,6 @@ p{
 .red div{
     background-color: var(--red);
 }
+.top{
+    margin-bottom: 10%;
+}

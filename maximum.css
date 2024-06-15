@@ -1,3 +1,40 @@
+.btn-max {
+    margin-top: 10%;
+    width: 201px;
+    height: 50px;
+   
+    top: 193px;
+     left: 73px;
+    gap: 0px;
+    opacity: 0px;
+
+    
+    border-radius: 16px;
+    font-family: "Nunito Sans";
+    background: #065847;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    border: 0;
+    color: #f3f3f3;
+  }
+
+  p{
+    text-align: center;
+  }
+
+ .max{
+    width: 347px;
+height: 263px;
+top: 274px;
+left: 40px;
+gap: 0px;
+opacity: 0px;
+
+ }
 /* Maximum Attempt */
 width: 428px;
 height: 812px;

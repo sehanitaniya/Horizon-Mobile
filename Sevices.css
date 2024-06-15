@@ -1,3 +1,49 @@
+.ser1{
+width: 120px;
+height: 200px;
+margin-top: 239px;
+margin-left: 214px;
+gap: 0px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+
+}
+.ser2{
+width: 120px;
+height: 200px;
+margin-top: 396px;
+margin-left: 274px;
+gap: 0px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.ser3{
+width: 120px;
+height: 200px;
+margin-top: 526px;
+margin-left: 334px;
+gap: 0px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+p {
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.img-sev{
+    margin-left:6%;
+}
+
 /* Services */
 width: 428px;
 height: 5162px;

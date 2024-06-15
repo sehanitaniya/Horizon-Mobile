@@ -4,7 +4,8 @@
   --red: #f2001f;
   --light-red: #f1778b;
   --purple: #3f0eff;
-  --pink: #fb9ed7;
+  --pink:  #F87E88;
+
   --gray: #444954;
 }
 main {
@@ -221,7 +222,7 @@ button {
   margin-top: 10%;
   width: 335px;
   height: 61px;
-  /* background-color: var(--green); */
+  background-color: var(--green); 
   border-radius: 16px;
   font-family: "Nunito Sans";
   font-style: normal;
@@ -259,7 +260,8 @@ button {
 .logo {
   width: 188.99px;
   height: 58.15px;
-  margin: 10px 0px;
+  margin-top: 220px;
+  
 }
 .logo-start {
   margin-top: 50%;
@@ -275,7 +277,8 @@ nav .logo {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  margin-top: 20%;
+  margin-top: 40%;
+  text-align: center;
 }
 .bubble2 {
   background: #f2f5fe;
