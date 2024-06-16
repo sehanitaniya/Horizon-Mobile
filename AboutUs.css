@@ -24,32 +24,30 @@ figure {
 figure > img:nth-child(1) {
   width: 277px;
   height: 216px;
-  top: 10px;
-  left: 10px;
 }
 figure > img:nth-child(2) {
   width: 105px;
   height: 80px;
-  top: 5px;
-  left: 0px;
+  top: 45px;
+  left: -20px;
 }
 figure > img:nth-child(3) {
   width: 122px;
   height: 130px;
-  top: 0px;
-  right: 0px;
+  top: 25px;
+  right: -30px;
 }
 figure > img:nth-child(4) {
   width: 106px;
   height: 139px;
-  bottom: 0px;
-  left: 5px;
+  bottom: 10px;
+  left: -10px;
 }
 figure > img:nth-child(5) {
   width: 79px;
   height: 80px;
-  bottom: 5px;
-  right: 5px;
+  bottom: 30px;
+  right: -20px;
 }
 .bg-blue {
   background-color: #43b9d4 !important;
@@ -82,7 +80,7 @@ section {
   text-align: left;
   max-width: 300px;
 }
-.customer img:first-child {
+.user {
   width: 50px;
   height: 50px;
 }
@@ -93,11 +91,16 @@ section {
   border-radius: 50px;
 }
 .grid {
-  grid-template-columns: 2fr 1fr 1fr;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px;
 }
 .grid > img:nth-child(1) {
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 1;
   grid-row: 1 / span 2;
+}
+.grid > img {
+  object-fit: contain;
 }
 .always {
   background-image: url(./image/about/always.svg);
@@ -135,8 +138,30 @@ section {
 }
 .news-box {
   height: 400px;
-  background-size: cover;
+  background-size: auto;
+  border-radius: 18px;
 }
 .first {
   background-image: url(./image/about/news1.svg);
+}
+.second {
+  background-image: url(./image/about/news2.svg);
+}
+.third {
+  background-image: url(./image/about/news3.svg);
+}
+.fourth {
+  background-image: url(./image/about/news4.svg);
+}
+.news-box > div {
+  top: 15px;
+  left: 15px;
+}
+.news-box > h2,
+.news-box > p {
+  padding-left: 10px;
+  text-align: left;
+}
+.news-box > p {
+  margin-bottom: 50px;
 }
