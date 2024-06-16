@@ -38,6 +38,216 @@
 h2 {
   text-align: center;
 }
-.city_walks_tour{
+.city_walks_tour {
   background-image: url(./image/home/city_walks_tour.svg);
+}
+.electric_bikes {
+  background-image: url(./image/home/electric_bikes.svg);
+}
+.skyscrapers_view {
+  background-image: url(./image/home/skyscrapers_view.svg);
+}
+
+.designed-box {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--white);
+  border-radius: 14px;
+}
+.fourth-section > div > div:nth-child(2) {
+  margin: 0 20px;
+}
+.fill {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 24;
+}
+.size-lg {
+  font-size: 30px !important;
+}
+.size-normal {
+  font-size: 15px !important;
+}
+.icon {
+  font-size: 15px !important;
+}
+.sale {
+  right: 10px;
+  top: 10px;
+  padding: 2px 10px;
+  border-radius: 50px;
+}
+.green {
+  color: #3cc09a;
+}
+.blue {
+  color: #43b9d4;
+}
+.pink {
+  color: #b95fda;
+}
+.ornage {
+  color: #eca46e;
+}
+.bg-green {
+  background-color: #3cc09a !important;
+}
+.bg-green2 {
+  background-color: #a2b09f !important;
+}
+.bg-green3 {
+  background-color: #546657 !important;
+}
+.bg-blue {
+  background-color: #43b9d4 !important;
+}
+.bg-pink {
+  background-color: #b95fda !important;
+}
+.bg-ice-blue {
+  background-color: #95a9d3 !important;
+}
+.destination {
+  height: 326px;
+  border-radius: 18px;
+}
+.grid {
+  gap: 10px;
+}
+.greece {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./image/home/greece.svg);
+}
+.egypt {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./image/home/egypt.svg);
+}
+.africa {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./image/home/africa.svg);
+}
+.france {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./image/home/france.svg);
+}
+.embrace {
+  height: 840px;
+}
+.border-bottom {
+  border-bottom: 1px solid;
+}
+.slider {
+  margin: 50px 0px;
+  width: 300px;
+  object-fit: contain;
+  border-radius: 14px;
+}
+.btn-margin {
+  margin: 50px 0;
+}
+.unforgettable {
+  height: 824px;
+  background-image: url(./image/home/unforgettable.svg);
+  padding: 0 10px;
+  object-fit: cover;
+}
+.user {
+  width: 45px;
+  height: 45px;
+}
+.user-box {
+  padding: 5px 10px;
+}
+.no-bullets {
+  list-style-type: none;
+  line-height: 2rem;
+  padding: 0px;
+}
+.price-area {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 4px;
+}
+.price-box {
+  padding: 5px;
+}
+ul li {
+  text-align: center;
+}
+.wandering-souls {
+  background-image: url(./image/home/wandering_souls.svg);
+  /* height: 605px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.wandering-souls h4 {
+  padding-left: 150px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.wandering-souls > h3:nth-child(2) {
+  padding-left: 120px;
+  margin: 0;
+}
+.wandering-souls > h3:nth-child(3) {
+  padding-left: 90px;
+  margin: 0;
+}
+.wandering-souls > h3:nth-child(4) {
+  padding-left: 70px;
+  margin: 0;
+}
+.wandering-souls > p:nth-child(5) {
+  padding-left: 60px;
+}
+.wandering-souls > p:nth-child(6) {
+  padding-left: 65px;
+}
+.wandering-souls > p:nth-child(8) {
+  padding-left: 115px;
+}
+.wandering-souls > hr:nth-child(7) {
+  width: 65%;
+  margin-left: 90px;
+}
+.wandering-souls > hr:nth-child(9) {
+  width: 60%;
+  margin-left: 130px;
+}
+.wandering-souls > button {
+  margin-left: 200px;
+}
+.plan_the_perfect_vacation > img {
+  height: 255px;
+}
+.plan_the_perfect_vacation > .absolute {
+  left: 15px;
+  top: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.blog-list img {
+  max-width: 120px;
+  min-height: 85px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.blog-list {
+  padding: 20px;
+}
+.tag {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+section {
+  padding: 25px 0;
 }
