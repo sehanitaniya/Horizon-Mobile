@@ -1,19 +1,14 @@
 .dot span {
-    width:15px;
-    height: 15px;
-    border-radius: 50px;
-    background-color: var(--green);
-    display: block;
-    
-
-
-
-
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: var(--green);
+  display: block;
 }
 
-.keybord{
-    margin-top: 40%;
+.keybord {
+  margin-top: 40%;
 }
-.span2{
-    background-color: var(--light-green #d2edee) ;
+.span2 {
+  background-color: var(--light-green) !important;
 }

@@ -1,15 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Home.css">
-</head>
-<body>
-     <main>
-        
-     </main>
-    
-</body>
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav></nav>
+      <section class="flex flex-column justify-between first-section relative">
+        <div class="absolute flex flex-row justify between h-full g-c-8">
+          <img
+            class="header-image-left h-fit"
+            src="./image/home/top_image_left.svg"
+            alt="Header Image"
+          /><img
+            class="header-image-right h-fit"
+            src="./image/home/top_image_right.svg"
+            alt="Header-Image"
+          />
+        </div>
+        <div
+          class="absolute h-full flex flex-column justify-between main-section"
+        >
+          <h1>Adventure & Experience The Travel..!</h1>
+          <div class="block-group">
+            <div>
+              <span class="material-symbols-outlined fill blue size-lg">
+                search
+              </span>
+              <div class="size-normal px-10">
+                <h3 class="no-space">Search</h3>
+                <p class="no-space">Insert Keyword</p>
+              </div>
+            </div>
+            <div>
+              <span class="material-symbols-outlined fill blue size-lg">
+                location_on
+              </span>
+              <div class="size-normal px-10">
+                <h3 class="no-space">Destinations</h3>
+                <p class="no-space">All Destinations</p>
+              </div>
+            </div>
+            <div>
+              <span class="material-symbols-outlined fill blue size-lg">
+                public
+              </span>
+              <div class="size-normal px-10">
+                <h3 class="no-space">Typologies</h3>
+                <p class="no-space">All Typologies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center second-section bg-white">
+        <h4>Dream Vacation Destination</h4>
+        <h2>Plan the Trip of a Lifetime with Ease</h2>
+        <p class="center">
+          Whether you're looking for a romantic getaway, a family-friendly
+          adventure, or a solo journey to explore the world, a travel agency can
+          provide you with a custom-tailored itinerary that exceeds your
+          expectations.
+        </p>
+        <button class="btn-green btn-text-sm">More Info</button>
+      </section>
+      <section class="flex flex-row w-full third-section align-center">
+        <div class="flex flex-column g-r-3 w-full">
+          <div class="city_walks_tour designed-box">
+            <div></div>
+            <h3>City Walks Tour</h3>
+          </div>
+          <div class="electric_bikes designed-box">
+            <div></div>
+            <h3>Electric Bikes</h3>
+          </div>
+          <div class="skyscrapers_view designed-box">
+            <div></div>
+            <h3>Skyscrapers View</h3>
+          </div>
+        </div>
+      </section>
+      <section
+        class="fourth-section flex flex-column align-center g-r-8 w-full"
+      >
+        <div class="flex flex-column relative">
+          <img src="./image/home/chiang_mai.svg" alt="Chiang Mai" />
+          <div class="flex flex-row align-center justify-between">
+            <div class="flex flex-row align-center g-c-6">
+              <span class="material-symbols-outlined fill icon green">
+                schedule
+              </span>
+              <p>1 Week</p>
+            </div>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill icon green">
+                mail
+              </span>
+              <span class="material-symbols-outlined fill icon green">
+                route
+              </span>
+            </div>
+          </div>
+          <h3 class="self-center no-space">Chiang mai</h3>
+          <div class="flex flex-row align-center g-c-4 self-center">
+            <span class="material-symbols-outlined fill icon green">
+              location_on
+            </span>
+
+            <p>Thailand</p>
+          </div>
+          <p class="self-center center">
+            Visit the temples and the Chiang Mai Night Bazaar, a huge huge
+            market located on Chiang Klan Road.
+          </p>
+          <div class="flex flex-row align-center justify-between w-full">
+            <button class="btn-green btn-text-sm bg-green">Details</button>
+            <div class="flex flex-row align-center g-c-2">
+              <!-- <h1>$1000</h1> -->
+              <div class="flex flex-column align-end no-space">
+                <p class="no-space">From</p>
+                <h3 class="no-space">$ 490</h3>
+              </div>
+            </div>
+          </div>
+          <div class="absolute sale hidden bg-green">SALE</div>
+        </div>
+        <div class="flex flex-column relative">
+          <img src="./image/home/chao_pharaya.svg" alt="Chao Phraya" />
+          <div class="flex flex-row align-center justify-between">
+            <div class="flex flex-row align-center g-c-6">
+              <span class="material-symbols-outlined fill icon blue">
+                schedule
+              </span>
+              <p>5 Days</p>
+            </div>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill icon blue">
+                mail
+              </span>
+              <span class="material-symbols-outlined fill icon blue">
+                route
+              </span>
+            </div>
+          </div>
+          <h3 class="self-center no-space">Chao Phraya</h3>
+          <div class="flex flex-row align-center g-c-4 self-center">
+            <span class="material-symbols-outlined fill icon blue">
+              location_on
+            </span>
+
+            <p>Thailand</p>
+          </div>
+          <p class="self-center center">
+            Boat tour in the capital of Thailand, Bangkok, to see the beautiful
+            palaces and monuments from the water.
+          </p>
+          <div class="flex flex-row align-center justify-between w-full">
+            <button class="btn-green btn-text-sm bg-blue">Details</button>
+            <div class="flex flex-row align-center g-c-2">
+              <h1>$98</h1>
+              <div class="flex flex-column align-end no-space">
+                <p class="no-space">From</p>
+                <h5 class="no-space strikethrough t-gray">$ 134</h5>
+              </div>
+            </div>
+          </div>
+          <div class="absolute sale t-white bg-blue">SALE</div>
+        </div>
+        <div class="flex flex-column relative">
+          <img src="./image/home/bangkok.svg" alt="Bangkok" />
+          <div class="flex flex-row align-center justify-between">
+            <div class="flex flex-row align-center g-c-6">
+              <span class="material-symbols-outlined fill icon pink">
+                schedule
+              </span>
+              <p>10 Days</p>
+            </div>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill icon pink">
+                mail
+              </span>
+              <span class="material-symbols-outlined fill icon pink">
+                route
+              </span>
+            </div>
+          </div>
+          <h3 class="self-center no-space">Chiang mai</h3>
+          <div class="flex flex-row align-center g-c-4 self-center">
+            <span class="material-symbols-outlined fill icon pink">
+              location_on
+            </span>
+
+            <p>Thailand</p>
+          </div>
+          <p class="self-center center">
+            Marvelous culinary and cultural trip to the Thai capital with its
+            wonderful monuments and Buddha statues.
+          </p>
+          <div class="flex flex-row align-center justify-between w-full">
+            <button class="btn-green btn-text-sm bg-pink">Details</button>
+            <div class="flex flex-row align-center g-c-2">
+              <h1>$1000</h1>
+              <div class="flex flex-column align-end no-space">
+                <p class="no-space">From</p>
+                <h5 class="no-space t-gray strikethrough">$ 1023</h5>
+              </div>
+            </div>
+          </div>
+          <div class="absolute sale bg-pink t-white">SALE</div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>Choose Your Trip</h4>
+        <h2>Start your Vacation Now</h2>
+        <p class="center">
+          Looking for your dream vacation destination but don't know where to
+          start? With the help of experienced and knowledgeable travel agents,
+          you can plan the trip of a lifetime with ease.
+        </p>
+        <div class="block-group w-full">
+          <div>
+            <span class="material-symbols-outlined fill ornage size-lg">
+              search
+            </span>
+            <div class="size-normal px-10">
+              <h3 class="no-space">Search</h3>
+              <p class="no-space">Insert Keyword</p>
+            </div>
+          </div>
+          <div>
+            <span class="material-symbols-outlined fill ornage size-lg">
+              location_on
+            </span>
+            <div class="size-normal px-10">
+              <h3 class="no-space">Destinations</h3>
+              <p class="no-space">All Destinations</p>
+            </div>
+          </div>
+          <div>
+            <span class="material-symbols-outlined fill ornage size-lg">
+              list
+            </span>
+            <div class="size-normal px-10">
+              <h3 class="no-space">Typologies</h3>
+              <p class="no-space">All Typologies</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn-green bg-red w-full btn-text-sm">Search</button>
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>Next Adventure</h4>
+        <h3>Travel Destinations Available Worldwide</h3>
+        <p class="center">
+          We have compiled a list of top destinations across the globe, scoured
+          the world for the most alluring and fascinating places to visit. From
+          the beautiful beaches of the Caribbean to the majestic mountains of
+          Europe and the vibrant cities of Asia, our destination list has
+          something for everyone.
+        </p>
+        <div class="grid grid-col-2 t-white">
+          <div
+            class="destination greece flex flex-column align-center center justify-center"
+          >
+            <h3>Greece</h3>
+            <p>Experience the ancient history & beaches</p>
+          </div>
+          <div
+            class="destination egypt flex flex-column align-center center justify-center"
+          >
+            <h3>Egypt</h3>
+            <p>Discover the lands of pharaohs & pyramids</p>
+          </div>
+          <div
+            class="destination africa flex flex-column align-center center justify-center"
+          >
+            <h3>Africa</h3>
+            <p>Embark on a journey for your lifetime</p>
+          </div>
+          <div
+            class="destination france flex flex-column align-center center justify-center"
+          >
+            <h3>France</h3>
+            <p>Indulge in the art, culture, and cuisine</p>
+          </div>
+        </div>
+      </section>
+      <section class="embrace relative flex flex-column align-center t-white">
+        <img
+          src="./image/home/embrace.svg"
+          alt="Embrace..."
+          class="absolute"
+          class="back"
+        />
+        <div class="content flex flex-column align-center w-full absolute">
+          <img src="./image/home/chiang_mai.svg" alt="slider" class="slider" />
+          <h3>Embrace the Thrill of the Unknown</h3>
+          <p class="center">
+            Are you tired of the typical tourist destinations and looking to
+            step out of your comfort zone? Adventure travel may be the perfect
+            solution for you! Here are four reasons why you should book an
+            adventure travel experience :
+          </p>
+          <div class="flex flex-row align-center g-c-4 w-full border-bottom">
+            <span class="material-symbols-outlined">check</span>
+            <h5>Connect with nature</h5>
+          </div>
+          <div class="flex flex-row align-center g-c-4 w-full border-bottom">
+            <span class="material-symbols-outlined">check</span>
+            <h5>Experience other cultures</h5>
+          </div>
+          <div class="flex flex-row align-center g-c-4 w-full">
+            <span class="material-symbols-outlined">check</span>
+            <h5>Create unforgettable memories</h5>
+          </div>
+          <button class="btn-green btn-text-sm btn-margin">All Services</button>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h3>Travel Itineraries</h3>
+        <!-- <video src=""></video> -->
+        <img src="./image/home/video_placeholder.svg" alt="video_placeholder" />
+        <div class="flex flex-row">
+          <img src="./image/home/logo1.svg" alt="logo1" />
+          <img src="./image/home/logo2.svg" alt="logo2" />
+          <img src="./image/home/logo3.svg" alt="logo3" />
+          <img src="./image/home/logo4.svg" alt="logo4" />
+        </div>
+      </section>
+      <section
+        class="unforgettable t-white flex flex-column align-center justify-around g-r-4"
+      >
+        <img src="./image/home/avatar.svg" alt="" />
+        <h3>Unforgettable Travel Experiences</h3>
+        <p class="center">
+          Our customer's feedback is essential in building a great reputation
+          and maintaining excellent service. By listening to our customer's
+          needs, we can improve our offerings and provide an exceptional travel
+          experience.
+        </p>
+        <div
+          class="bg-green rounded flex flex-column t-white align-center user-box"
+        >
+          <p class="center">
+            My husband and I have been using this travel agency for years and
+            they have never disappointed us.
+          </p>
+          <div class="flex flex-row align-center g-c-7">
+            <img src="./image/home/user1.svg" alt="user1" class="user" />
+            <div class="flex flex-column">
+              <h5 class="no-space">Jennifer and Mark</h5>
+              <p class="no-space">San Francisco</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-green rounded flex flex-column t-white align-center user-box"
+        >
+          <p class="center">
+            This travel agency made my dream trip to Europe a reality. They
+            worked with me every step of the way to plan the itinerary.
+          </p>
+          <div class="flex flex-row align-center g-c-7">
+            <img src="./image/home/user2.svg" alt="user2" class="user" />
+            <div class="flex flex-column">
+              <h5 class="no-space">Dylan and Emily</h5>
+              <p class="no-space">Miami</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>Clear Price</h4>
+        <h3>Affordable Travel Packages</h3>
+        <p class="center">
+          We believe that everyone deserves to experience their dream vacation
+          without breaking the bank. That's why we offer a price section on our
+          website that features a range of affordable travel
+        </p>
+        <div class="flex flex-row price-area">
+          <div
+            class="price-box flex flex-column align-center rounded bg-green2"
+          >
+            <h3 class="no-space">Half Board</h3>
+            <div class="flex flex-row align-center no-space">
+              <h3 class="no-space">$ 50 /</h3>
+              <h5 class="no-space">Day</h5>
+            </div>
+            <ul class="no-bullets">
+              <li>Transfers from Airport</li>
+              <li>Minimum 3 Star Hotel</li>
+              <li>Alcoholic beverages</li>
+              <li>Incl. Museum Tickets</li>
+              <li>Meals in Restaurants</li>
+            </ul>
+            <button class="btn-green btn-text-sm">View Trips</button>
+          </div>
+          <div
+            class="price-box flex flex-column align-center rounded t-white bg-green"
+          >
+            <h3 class="no-space">All inclusive</h3>
+            <div class="flex flex-row align-center no-space">
+              <h3 class="no-space">$ 32 /</h3>
+              <h5 class="no-space">Day</h5>
+            </div>
+            <ul class="no-bullets">
+              <li>Meals in Restaurants</li>
+              <li>Alcoholic beverages</li>
+              <li>Minimum 3 Star Hotel</li>
+              <li>Transfers from Airport</li>
+              <li>Incl. Museum Tickets</li>
+            </ul>
+            <button class="btn-green btn-text-sm bg-green3">View All</button>
+          </div>
+          <div
+            class="price-box flex flex-column align-center t-white rounded bg-green3"
+          >
+            <div class="tag bg-green">Popular</div>
+            <h3 class="no-space center px-10">
+              Excursions<br />
+              Included
+            </h3>
+            <div class="flex flex-row align-center no-space">
+              <h3 class="no-space">$ 68 /</h3>
+              <h5 class="no-space">Day</h5>
+            </div>
+            <ul class="no-bullets">
+              <li>Minimum 3 Star Hotel</li>
+              <li>Meals in Restaurants</li>
+              <li>Incl. Museum Tickets</li>
+              <li>Meals in Restaurants</li>
+              <li>Alcoholic beverages</li>
+            </ul>
+            <button class="btn-green btn-text-sm">Button</button>
+          </div>
+        </div>
+        <p>* All trips include medical insurance</p>
+      </section>
+      <section class="wandering-souls t-white">
+        <h4>Wandering Souls</h4>
+        <h3>Discover</h3>
+        <h3>Your Next</h3>
+        <h3>Adventure</h3>
+        <p>
+          Whether you're planning a romantic honeymoon or a family vacation, our
+          price section has got you covered. So, start browsing today and find
+          the perfect vacation package at a price that won't leave you feeling
+          guilty.
+        </p>
+        <p>Organized Group Tour</p>
+        <hr />
+        <p>Single Customized Trip</p>
+        <hr />
+        <button class="btn-green btn-text-sm px-10">More Info</button>
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>Roaming Tales</h4>
+        <h3>Travel Blog</h3>
+        <p class="center">
+          We share our experiences, tips and travel stories to inspire and guide
+          our readers in their own wanderlust adventures. From hidden gems to
+          popular destinations, we showcase the beauty and diversity of the
+          world, and promote responsible and sustainable travel.
+        </p>
+        <article
+          class="flex flex-column align-center relative plan_the_perfect_vacation"
+        >
+          <img
+            src="./image/blog/plan_the_perfect_vacation_1.png"
+            alt="plan_the_perfect_vacation"
+            class="w-full rounded"
+          />
+          <h3>Plan the Perfect Vacation</h3>
+          <p class="center">
+            Planning a vacation can be overwhelming, but this post offers a
+            step-by-step guide to help readers create a comprehensive travel
+            itinerary. From choosing a destination to booking accommodations and
+            activities, readers will learn how to plan a stress-free and
+            enjoyable trip.
+          </p>
+          <button class="btn-green btn-text-sm">Read More</button>
+          <div class="absolute bg-ice-blue t-white">April 7, 2023</div>
+        </article>
+        <section class="flex flex-column g-r-4 blog-list">
+          <div class="flex flex-row align-center g-c-4">
+            <img src="./image/blog/discover_the_hidden_gems.png" alt="" />
+            <div class="flex flex-column align-start g-r-2">
+              <div class="tag bg-green t-white">April 7,2023</div>
+              <h3 class="no-space">Discover the Hidden Gems</h3>
+              <p class="no-space">
+                Benefits of traveling alone, from the freedom to discover new
+                places with new friends.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row align-center g-c-4">
+            <img src="./image/blog/must_see_landmarks.svg" alt="" />
+            <div class="flex flex-column align-start g-r-2">
+              <div class="tag bg-green t-white">April 7,2023</div>
+              <h3 class="no-space">Must-See Landmarks</h3>
+              <p class="no-space">
+                Iconic landmarks that make Europe one of the world's most
+                popular travel destinations.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row align-center g-c-4">
+            <img src="./image/blog/discover_the_hidden_gems.png" alt="" />
+            <div class="flex flex-column align-start g-r-2">
+              <div class="tag bg-green t-white">April 7,2023</div>
+              <h3 class="no-space">Traveling on a Budget</h3>
+              <p class="no-space">
+                Practical advice for travelers who want to see the world without
+                breaking the bank.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row align-center g-c-4">
+            <img src="./image/blog/explore_the_wonders.svg" alt="" />
+            <div class="flex flex-column align-start g-r-2">
+              <div class="tag bg-green t-white">April 7,2023</div>
+              <h3 class="no-space">Explore the Wonders</h3>
+              <p class="no-space">
+                Must-see destinations and experiences, including wildlife and
+                cultural experiences.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>

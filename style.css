@@ -4,9 +4,11 @@
   --red: #f2001f;
   --light-red: #f1778b;
   --purple: #3f0eff;
-  --pink:  #F87E88;
+  --pink: #f87e88;
 
   --gray: #444954;
+  --white: #f2f2f2;
+  --light-gray: #a0a0a0;
 }
 main {
   margin: auto;
@@ -140,6 +142,21 @@ input[type="radio"] {
 .w-full {
   width: 100%;
 }
+.w-fit {
+  width: fit-content;
+}
+.w-max {
+  width: max-content;
+}
+.h-full {
+  height: 100%;
+}
+.h-fit {
+  height: fit-content;
+}
+.h-max {
+  height: max-content;
+}
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -171,14 +188,45 @@ input[type="radio"] {
 .bg-purple {
   background-color: var(--purple);
 }
+.bg-white {
+  background-color: var(--white);
+}
+.bg-red {
+  background-color: var(--red) !important;
+}
 .t-green {
   color: var(--green);
 }
 .t-white {
-  color: #ffffff;
+  color: var(--white);
+}
+.t-gray {
+  color: var(--light-gray);
 }
 .no-border {
   border: none;
+}
+.center {
+  text-align: center;
+}
+.strikethrough {
+  text-decoration-line: line-through;
+}
+.hidden {
+  display: none;
+}
+.grid {
+  display: grid;
+}
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.rounded {
+  border-radius: 18px;
+}
+.px-10 {
+  padding: 10px 0;
 }
 /* common classes end */
 body {
@@ -222,7 +270,7 @@ button {
   margin-top: 10%;
   width: 335px;
   height: 61px;
-  background-color: var(--green); 
+  background-color: var(--green);
   border-radius: 16px;
   font-family: "Nunito Sans";
   font-style: normal;
@@ -257,11 +305,23 @@ button {
   color: #f3f3f3;
   padding: 4px 30px;
 }
+h4 {
+  font-family: "Reenie Beanie";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 188% */
+  color: #1bbc9b;
+  margin: 0;
+  max-width: 200px;
+  text-wrap: pretty;
+  text-align: center;
+}
 .logo {
   width: 188.99px;
   height: 58.15px;
   margin-top: 220px;
-  
 }
 .logo-start {
   margin-top: 50%;
@@ -426,7 +486,7 @@ footer .logo {
   background-image: url(./image/page_images/services.svg);
 }
 [data-page-name="contact-us"] {
-  background-image: url(./image/page_images/contact-us.svg);
+  background-image: url(./image/page_images/contact_us.svg);
 }
 [data-page-name="shop"] {
   background-image: url(./image/page_images/shop.svg);
@@ -442,9 +502,13 @@ footer .logo {
   line-height: 45px;
   color: var(--green);
 }
-footer .logo{
-    width: 90%;
-    margin: 0px;
-    height: auto;
-    padding: 3px;
+footer .logo {
+  width: 90%;
+  margin: 0px;
+  height: auto;
+  padding: 3px;
+}
+.btn-text-sm {
+  font-weight: 400;
+  font-size: 1rem;
 }
