@@ -1,4 +1,4 @@
-.menu{
+.menu {
 width: 214px;
 height: 428px;
 background: #1BBC9B;
@@ -19,4 +19,5 @@ letter-spacing: 0.05em;
 .menu2{
     text-decoration: none;
     color: #000000;
+    list-style: none;
 }
