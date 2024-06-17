@@ -3,7 +3,20 @@
     background-color:var( --green);
 }
 
+.pro-2
+    
+{
+   border: 6px solid white;
+   border-radius: 50%;
+   margin-top: 25%;
+}
+.pro-1{
+    margin-top: 15%;
+    margin-bottom: 30%;
+ 
 
+
+}
 
 
 /* Profile */
