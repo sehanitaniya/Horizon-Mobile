@@ -1,3 +1,11 @@
+.nav-col
+{
+    background-color:var( --green);
+}
+
+
+
+
 /* Profile */
 width: 428px;
 height: 2926px;
