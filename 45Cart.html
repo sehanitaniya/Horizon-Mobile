@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="45Cart.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-</head>
-<body>
+    <link rel="stylesheet" href="45Cart.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main class="flex flex-column align-center g-r-8">
-         <header class="w-full">
-             <nav class="flex flex-row justify-between align-center">
-                 <img src="./image/logo.svg" alt="Horizon Explorers" class="logo">
-                 <div class="flex align-center">
-                     <button class="btn-green search-btn">Search</button>
-                     <button class="hamberger"><span class="material-symbols-outlined">
-                         menu
-                         </span></button>
-                 </div>
-             </nav>
-         </header>
-        <div class="flex flex-row align-center g-c-4 self-start">
-            <h1 class="page-title">Cart,,,,,,,,,,,,,,,,,,</h1>
-            <p class="number">3</p>
+      <header class="w-full">
+        <nav class="flex flex-row justify-between align-center">
+          <img src="./image/logo.svg" alt="Horizon Explorers" class="logo" />
+          <div class="flex align-center">
+            <button class="btn-green search-btn">Search</button>
+            <button class="hamberger">
+              <span class="material-symbols-outlined"> menu </span>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div class="flex flex-row align-center g-c-4 self-start">
+        <h1 class="this-page-title">Cart</h1>
+        <p class="number">3</p>
+      </div>
+      <div class="flex flex-column">
+        <div class="flex flex-column align-center">
+          <img
+            src="./image/items/baggage_insuarance.png"
+            alt="Baggage_Insuarance"
+          />
+          <h1 class="this-page-title">Baggage Insuarance</h1>
+          <p class="no-space price">$50.00</p>
         </div>
-        <div class="flex flex-column">
-            <div class="flex flex-column align-center">
-                <img src="./image/items/baggage_insuarance.png" alt="Baggage_Insuarance">
-                <h1 class="page-title">Baggage Insuarance</h1>
-                <p class="no-space price">$50.00</p>
-            </div>
+      </div>
+      <div>
+        <div class="flex flex-column align-center">
+          <img
+            src="./image/items/health_insuarance.png"
+            alt="Health_Insuarance"
+          />
+
+          <h1 class="this-page-title">Health Insuarance</h1>
+          <p class="no-space price">$220.00</p>
         </div>
-        <div>
-            <div class="flex flex-column align-center">
-                <img src="./image/items/health_insuarance.png" alt="Health_Insuarance">
-               
-                <h1 class="page-title">Health Insuarance</h1>
-                <p class="no-space price">$220.00</p>
-            </div>
+      </div>
+      <div class="flex flex-row justify-around align-center w-full">
+        <div class="flex flex-row g-c-4">
+          <h1 class="this-page-title">Total</h1>
+          <h1 class="this-page-title">$270.00</h1>
         </div>
-        <div class="flex flex-row justify-around align-center w-full">
-            <div class="flex flex-row g-c-4">
-                <h1 class="page-title">Total</h1>
-                <h1 class="page-title">$270.00</h1>
-            </div>
-            <button class="btn-purple">Checkout</button>
-        </div>
-     </main>
-    
-</body>
+        <button class="btn-purple">Checkout</button>
+      </div>
+    </main>
+  </body>
 </html>

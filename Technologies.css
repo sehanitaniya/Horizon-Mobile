@@ -1,16 +1,17 @@
-.back-img{
+.back-img {
     background-image: url(./image/tec1.svg);
-   
-
+    height: 300px;
+    border-radius: 18px;
 
 }
-p{
+
+p {
     text-align: center;
 }
 
-h2{
+h2 {
     text-align: center;
- 
+
 
 }
 

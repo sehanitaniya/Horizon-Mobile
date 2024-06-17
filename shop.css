@@ -1,17 +1,27 @@
-img{
+img {
     width: 380px;
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
 }
-.sorting-text{
+
+a>img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+}
+
+
+
+.sorting-text {
     margin: 15px 0;
 }
-.sale{
+
+.sale {
     top: 15px;
     right: 17px;
     padding: 2px 12px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     color: #fff;
     text-align: center;
 }
