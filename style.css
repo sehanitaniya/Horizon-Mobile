@@ -588,7 +588,7 @@ footer .logo {
 }
 
 [data-page-name="technologies"] {
-  background-image: url(./image/page_images/tecno.svg);
+  background-image: url(./image/tec.svg);
 }
 
 [data-page-name="about_us"] {
@@ -604,7 +604,7 @@ footer .logo {
 }
 
 [data-page-name="contact-us"] {
-  background-image: url(./image/page_images/contact_us.svg);
+  background-image: url(./image/page_images/contact-us.svg);
 }
 
 [data-page-name="shop"] {
