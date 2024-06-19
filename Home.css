@@ -85,6 +85,15 @@ h2 {
 .pink {
   color: #b95fda;
 }
+.yellow{
+    color: #FFD205;
+    ;
+  
+}
+.purple{
+  color: #BA71DA;
+
+}
 .ornage {
   color: #eca46e;
 }
@@ -102,6 +111,9 @@ h2 {
 }
 .bg-pink {
   background-color: #b95fda !important;
+}
+.bg-yellow{
+  background-color: #FFD205 !important ; 
 }
 .bg-ice-blue {
   background-color: #95a9d3 !important;
