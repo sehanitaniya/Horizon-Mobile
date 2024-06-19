@@ -1,8 +1,8 @@
-ul[data-icon="tic"] {
+li[data-icon="tic"] {
   list-style-image: url(./image/single_page/bullet.svg);
 }
 
-ul[data-icon="cross"] {
+li[data-icon="cross"] {
   list-style-image: url(./image/single_page/bullet2.svg);
 }
 
@@ -22,4 +22,53 @@ ul[data-icon="cross"] {
 .page-title>div {
   background-color: var(--green);
   opacity: 0.5;
+}
+
+.t-pink {
+  color: #b95fda !important;
+}
+
+.bg-pink {
+  background-color: #b95fda;
+}
+
+.tag {
+  top: 15px;
+  right: 15px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+input[type="checkbox"] {
+  width: min-content;
+}
+
+a:link {
+  color: var(--green);
+}
+
+.price-section {
+  /* background-color: gray; */
+  padding: 30px 20px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 50px 1px var(--gray);
+}
+
+iframe {
+  width: 95%;
+  border-radius: 18px;
+}
+
+cite {
+  font-style: normal;
+  color: var(--green);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2px;
+  row-gap: 8px;
 }

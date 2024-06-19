@@ -44,16 +44,33 @@
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <span class="material-symbols-outlined">schedule</span>
+      <section class="flex flex-row justify-center align-center g-c-5">
+        <div class="flex flex-row g-c-4 align-center">
+          <span class="material-symbols-outlined t-green">schedule</span>
           <div>
-            <p>Duration</p>
-            <h5>1 Week</h5>
+            <p class="no-space">Duration</p>
+            <h5 class="no-space">1 Week</h5>
           </div>
         </div>
+        <div class="flex flex-row g-c-4 align-center">
+          <img src="./image/singlepage/icon2.svg" alt="" />
+
+          <div>
+            <p class="no-space">Difficulty</p>
+            <h5 class="no-space">Easy</h5>
+          </div>
+        </div>
+        <div class="flex flex-row g-c-4 align-center">
+          <img src="./image/singlepage/icon3.svg" alt="" />
+          <div>
+            <p class="no-space">Min Age</p>
+            <h5 class="no-space">0</h5>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
         <h1>Enjoy the Adventure</h1>
-        <p>
+        <p class="center">
           Are you looking for an adventure of a lifetime? Join us on an
           unforgettable journey through some of the world's most stunning
           landscapes and cultural destinations. Our expertly curated tours take
@@ -80,107 +97,150 @@
           <li data-icon="cross">Custom itinerary</li>
         </ul>
       </section>
-      <section>
-        <div>
-          <div>
-            <p>Price</p>
-            <h5>From</h5>
+      <section class="price-section">
+        <div class="flex flex-column w-full">
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">Price</p>
+              <h5 class="no-space">From</h5>
+            </div>
+            <h3>$ 490</h3>
           </div>
-          <h3>$ 490</h3>
-        </div>
-        <div>
-          <p>Booking Form</p>
-          <p>Enquiry Form</p>
-        </div>
-        <div>
-          <h5>Date</h5>
-          <p>03-13-2024</p>
-        </div>
-        <div>
-          <div>
-            <h5>Adults</h5>
-            <p>Over 18 ( $ 490 )</p>
+          <div class="flex flex-row justify-between align-center">
+            <p class="t-green">Booking Form</p>
+            <p>Enquiry Form</p>
           </div>
           <div>
-            -
-            <h3>1</h3>
-            +
+            <h5 class="no-space">Date</h5>
+            <p class="no-space">03-13-2024</p>
           </div>
-        </div>
-        <div>
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <h5 class="no-space">Adults</h5>
+              <p class="no-space">Over 18 ( $ 490 )</p>
+            </div>
+            <div class="flex flex-row align-center g-c-4">
+              -
+              <h3>1</h3>
+              +
+            </div>
+          </div>
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <h5 class="no-space">Children</h5>
+              <p class="no-space">Under 18 ( $ 200 )</p>
+            </div>
+            <div class="flex flex-row align-center g-c-4">
+              -
+              <h3>0</h3>
+              +
+            </div>
+          </div>
+
           <div>
-            <h5>Children</h5>
-            <p>Over 18 ( $ 200 )</p>
+            <h5 class="no-space">Extra Services</h5>
+            <p class="no-space">Add extra services on your reservation</p>
           </div>
-          <div>
-            -
-            <h3>0</h3>
-            +
+          <div class="flex flex-column px-10 align-start">
+            <div class="flex flex-row align-center w-full justify-start">
+              <input
+                type="checkbox"
+                name="health"
+                id="health"
+                class="no-space"
+              />
+              <label for="health">Health Insuarance ( $ 220 )</label>
+            </div>
+            <div class="flex flex-row align-center w-full justify-start">
+              <input
+                type="checkbox"
+                name="medical"
+                id="medical"
+                class="no-space"
+              />
+              <label for="medical">Medical Insuarance ( $ 45 )</label>
+            </div>
           </div>
+          <button class="btn-green btn-text-sm self-center">
+            Book now for $ 490
+          </button>
         </div>
-        <div>
-          <h5>Extra Services</h5>
-          <p>Add extra services on your reservation</p>
-        </div>
-        <div>
-          <input type="checkbox" name="health" id="health" />
-          <label for="health">Health Insuarance ( $ 220 )</label>
-        </div>
-        <div>
-          <input type="checkbox" name="medical" id="medical" />
-          <label for="medical">Medical Insuarance ( $ 45 )</label>
-        </div>
-        <button>Book now for $ 490</button>
       </section>
-      <section>
+      <section class="flex flex-column align-center">
         <h2>Tour Map</h2>
-        <p>
+        <p class="center">
           This comprehensive map is designed to guide you through an exciting
           journey filled with remarkable destinations and captivating
           experiences.
         </p>
-        <iframe src="" frameborder="0">map</iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241733.7147063474!2d98.79166518309225!3d18.79417360385279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a7e90bb6f5d%3A0x98d46270a59b4367!2sChiang%20Mai%2C%20Mueang%20Chiang%20Mai%20District%2C%20Chiang%20Mai%2C%20Thailand!5e0!3m2!1sen!2slk!4v1718788844233!5m2!1sen!2slk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
-      <section>
+      <section class="flex flex-column align-center">
         <h2>Itinerary</h2>
-        <p>
+        <p class="center">
           We have carefully planned out each day to give you the best possible
           experience. From exploring historic landmarks to tasting delicious
           local cuisine, each day is packed with adventure and excitement. Join
           us as we take you on a journey through some of the most fascinating
           destinations in the world.
         </p>
-        <div>
+        <div class="flex flex-row w-full align-center justify-between">
           <h3><cite>Day 1</cite>- Arrival and Orientation</h3>
-          <span>></span>
+          <span class="material-symbols-outlined"> keyboard_arrow_right </span>
+        </div>
+        <div class="flex flex-row w-full align-center justify-between">
+          <h3><cite>Day 2</cite>- City Tour</h3>
+          <span class="material-symbols-outlined"> keyboard_arrow_right </span>
+        </div>
+        <div class="flex flex-row w-full align-center justify-between">
+          <h3><cite>Day 3</cite>- Cooking Class</h3>
+          <span class="material-symbols-outlined"> keyboard_arrow_right </span>
+        </div>
+        <div class="flex flex-row w-full align-center justify-between">
+          <h3><cite>Day 4</cite>- Nature Hike</h3>
+          <span class="material-symbols-outlined"> keyboard_arrow_right </span>
+        </div>
+        <div class="flex flex-row w-full align-center justify-between">
+          <h3><cite>Day 5</cite>- Free Day</h3>
+          <span class="material-symbols-outlined"> keyboard_arrow_right </span>
         </div>
       </section>
-      <section>
+      <section class="flex flex-column align-center">
         <h2>Gallery</h2>
-        <p>
+        <p class="center">
           Each image tells a unique story, inviting us into a world of emotion,
           beauty, and complexity. Get ready to be moved, inspired, and
           challenged as we journey through this captivating collection of
           images.
         </p>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div class="grid">
+          <img src="./image/single_page/gallery1.svg" alt="" />
+          <img src="./image/single_page/gallery2.svg" alt="" />
+          <img src="./image/single_page/gallery3.svg" alt="" />
+          <img src="./image/single_page/gallery4.svg" alt="" />
+          <img src="./image/single_page/gallery5.svg" alt="" />
+          <img src="./image/single_page/gallery6.svg" alt="" />
         </div>
       </section>
-      <section>
+      <section class="flex flex-column align-center">
         <h4>Check All</h4>
         <h3>Packages</h3>
-        <div>
-          <img src="" alt="" />
-          <div><span></span>10 Days</div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/single_page/athenes.svg" alt="" />
+          <div class="tag bg-gray t-white absolute"><span></span>10 Days</div>
           <h3>Athenes</h3>
-          <div>
-            <span>location_on</span>
+          <div class="flex flex-row align-center g-c-4 px">
+            <span class="material-symbols-outlined fill t-pink"
+              >location_on</span
+            >
             <p>Greece</p>
           </div>
           <hr />
@@ -189,12 +249,36 @@
             you explore the stunning Acropolis.
           </p>
           <hr />
-          <div>
+          <div class="flex flex-row align-center justify-between">
             <div>
-              <p>From</p>
-              <h3>$ 677</h3>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 677</h3>
             </div>
-            <button>Details</button>
+            <button class="btn-green bg-pink">Details</button>
+          </div>
+        </div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/single_page/bangkok.svg" alt="" />
+          <div class="tag bg-gray t-white absolute"><span></span>10 Days</div>
+          <h3>Bangkok</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-pink"
+              >location_on</span
+            >
+            <p>Thailand</p>
+          </div>
+          <hr />
+          <p>
+            Marvelous culinary and cultural trip to the Thai capital with its
+            wonderful monuments and Buddha statues.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 1000</h3>
+            </div>
+            <button class="btn-green bg-pink">Details</button>
           </div>
         </div>
       </section>
