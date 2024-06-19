@@ -20,10 +20,14 @@
     text-align: center;
     border: 0; 
     color: #f3f3f3;
+    margin-left: 20%;
+  
+ 
   }
 
   p{
     text-align: center;
+   
   }
 
  .max{
@@ -31,135 +35,19 @@
 height: 263px;
 top: 274px;
 left: 40px;
-gap: 0px;
-opacity: 0px;
+/* Pop-up */
+background-color: #F8F8F8;
+
+border-radius: 10%;
+margin-top: 50%;
+
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.160784);
+
 
  }
-/* Maximum Attempt */
-width: 428px;
-height: 812px;
-background: #FFFFFF;
-/* Bubbles */
-/* bubble 02 */
-background: #F2F5FE;
-transform: rotate(-110deg);
-/* bubble 01 */
-background: #1BBC9B;
-transform: rotate(92deg);
-/* Title */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 26px;
-/* identical to box height, or 173% */
-text-align: center;
-color: #202020;
-mix-blend-mode: normal;
-opacity: 0.9;
-background: rgba(27, 188, 155, 0.21);
-background: rgba(27, 188, 155, 0.21);
-/* ellispse 01 */
-/* ellispse 01 */
-background: rgba(27, 188, 155, 0.21);
-/* ellispse 01 */
-/* ellispse 01 */
-background: rgba(27, 188, 155, 0.21);
-/* Title */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 25px;
-/* identical to box height, or 156% */
-text-align: center;
-letter-spacing: 1.6px;
-color: #000000;
-/* Enter 4-digits code we sent you on your phone number */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 300;
-font-size: 19px;
-line-height: 27px;
-/* or 142% */
-text-align: center;
-color: #000000;
-/* Title */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 21px;
-line-height: 30px;
-/* identical to box height, or 143% */
-text-align: center;
-letter-spacing: -0.21px;
-color: #202020;
-/* Button */
-background: #F87E88;
-border-radius: 16px;
-/* Send Again */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 31px;
-/* identical to box height, or 141% */
-text-align: center;
-color: #FFFFFF;
-/* ellipse */
-background: #FFFFFF;
-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.160784);
-background: #000000;
-/* 8DBD582D-57D4-485E-8E76-671287936725 */
-background: url(Image.png);
-background: url(artist-2.jpg);
-/* cover-blue */
-background: #0E0E0E;
-mix-blend-mode: normal;
-opacity: 0.78;
-/* Pop-up */
-/* Rectangle */
-background: #F8F8F8;
-border-radius: 19px;
-/* Ellipse  */
-background: #FFFFFF;
-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.160784);
-/* Title */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-/* or 144% */
-text-align: center;
-letter-spacing: -0.18px;
-color: #202020;
-background: #065847;
-border-radius: 16px;
-/* Okay */
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 31px;
-/* identical to box height, or 141% */
-text-align: center;
-color: #FFFFFF;
-/* Icon */
-/* Ellipse 205 */
-background: rgba(27, 188, 155, 0.28);
-/* Ellipse 178 */
-background: #1BBC9B;
-border: 2px solid #FFFFFF;
-/* Group 1396 */
-/* Line 100 */
-border: 3px solid #FFFFFF;
-/* Line 101 */
-border: 3px solid #FFFFFF;
-/* Exclamation */
-/* Rectangle 614 */
-background: #FFFFFF;
-border-radius: 8px;
-/* Rectangle 615 */
-background: #FFFFFF;
-border-radius: 8px;
+.cir-gre{
+     margin-left: 40%;
+     border: 10px solid white;
+     border-radius: 50%;
+  
+}
