@@ -20,4 +20,19 @@ border-radius: 0px 0px 15px 15px;
 }
 
 
+.dot6 span {
+    width: 35px;
+    top: 2317px;
+    left: 42px;
+    padding: 9.5px 0px 10.5px 0px;
+    border-radius: 5px ;
+    text-align: center;
+    background-color: var(--gray);
+    display: block;
+  }
 
+
+  .dot7 {
+    background-color: var(--green) !important;
+  }
+    

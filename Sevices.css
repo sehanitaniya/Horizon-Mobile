@@ -53,3 +53,27 @@ h1{
     margin-left:6%;
 }
 
+.sediv1{
+    width: 50%;
+height: 40px;
+top: 2486px;
+padding-left: 0%;
+margin-bottom: 5%;
+margin-right: 0%;
+display: inline-block;
+align-items: start;
+
+
+}
+.sediv2{
+    width: 50%;
+height: 40px;
+top: 2486px;
+padding-left: 50%;
+margin-bottom: 5%;
+margin-right: 60%;
+}
+
+.sec{
+    margin-bottom: 20%;
+}
