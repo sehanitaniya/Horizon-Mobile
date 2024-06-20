@@ -1,15 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="preview.css">
-</head>
-<body>
-     <main>
-        
-     </main>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="preview.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header class="w-full">
+        <nav class="flex flex-row justify-between align-center">
+          <img src="./image/logo.svg" alt="Horizon Explorers" class="logo" />
+          <div class="flex align-center">
+            <button class="btn-green search-btn">Search</button>
+            <button class="hamberger">
+              <span class="material-symbols-outlined"> menu </span>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <section class="page-title" data-page-name="preview">
+        Packages Previews
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>With All Previews</h4>
+        <h2>Carousel Solutions</h2>
+        <div class="relative flex flex-column al px-10">
+          <img src="./image/single_page/bangkok.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>15 Days
+          </div>
+          <h3>Rome</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-green"
+              >location_on</span
+            >
+            <p>Italy</p>
+          </div>
+          <hr />
+          <p>
+            Marvel at the breathtaking art and architecture, From the splendor
+            of the Roman Empire to the Renaissance .
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 450</h3>
+            </div>
+            <button class="btn-green bg-blue btn-text-sm">Details</button>
+          </div>
+        </div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/rome.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>5 Days
+          </div>
+          <h3>San Frnacisco</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-green"
+              >location_on</span
+            >
+            <p>California</p>
+          </div>
+          <hr />
+          <p>
+            With convenient transportation and a small group size, you'll have
+            the ultimate personalized tour experience.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 480</h3>
+            </div>
+            <button class="btn-green btn-text-sm">Details</button>
+          </div>
+        </div>
+        <h2>Preview 01</h2>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/chao_pharaya.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>1 Week
+          </div>
+          <h3>Chao Phraya</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-blue"
+              >location_on</span
+            >
+            <p>Thailand</p>
+          </div>
+          <hr />
+          <p>
+            Boat tour in the capital of Thailand, Bangkok, to see the beautiful
+            palaces and monuments from the water.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 98</h3>
+            </div>
+            <button class="btn-green bg-blue btn-text-sm">Details</button>
+          </div>
+        </div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/toscany.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>5 Days
+          </div>
+          <h3>Toscany</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-blue"
+              >location_on</span
+            >
+            <p>Italy</p>
+          </div>
+          <hr />
+          <p>
+            Whether you're looking for a romantic tour, Tuscany is the perfect
+            destination for a true Italian experience.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 789</h3>
+            </div>
+            <button class="btn-green bg-blue btn-text-sm">Details</button>
+          </div>
+        </div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/cairo.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>10 Days
+          </div>
+          <h3>Cairo</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-red"
+              >location_on</span
+            >
+            <p>Egypt</p>
+          </div>
+          <hr />
+          <p>
+            Our expert guides will take you on a journey through time as they
+            share their knowledge and traditions.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 800</h3>
+            </div>
+            <button class="btn-green bg-red btn-text-sm">Details</button>
+          </div>
+        </div>
+        <h2>Preview 02</h2>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/rhodes.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>10 Days
+          </div>
+          <h3>Rhodes</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-orange"
+              >location_on</span
+            >
+            <p>Greece</p>
+          </div>
+          <hr />
+          <p>
+            Sightseeing tour of the cultural beauties of the island with time
+            for relaxation too with excursions.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 899</h3>
+            </div>
+            <button class="btn-green bg-orange btn-text-sm">Details</button>
+          </div>
+        </div>
+        <div class="relative flex flex-column px-10">
+          <img src="./image/preview/cairo2.svg" alt="" />
+          <div
+            class="tag bg-gray t-white absolute flex flex-row align-center g-c-2"
+          >
+            <span class="material-symbols-outlined fill">schedule</span>10 Days
+          </div>
+          <h3>Cairo</h3>
+          <div class="flex flex-row align-center g-c-4">
+            <span class="material-symbols-outlined fill t-red"
+              >location_on</span
+            >
+            <p>Egypt</p>
+          </div>
+          <hr />
+          <p>
+            Sightseeing tour of the cultural beauties of the island with time
+            for relaxation too with excursions.
+          </p>
+          <hr />
+          <div class="flex flex-row align-center justify-between">
+            <div>
+              <p class="no-space">From</p>
+              <h3 class="no-space">$ 800</h3>
+            </div>
+            <button class="btn-green bg-red btn-text-sm">Details</button>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h2>Preview 03</h2>
+        <div class="preview3 flex flex-row t-white justify-around">
+          <div class="card3 relative flex flex-column align-center justify-end">
+            <div class="tag2 absolute bg-orange">$ 900</div>
+            <h5 class="no-space">Paris</h5>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill">location_on</span>
+              <p>France</p>
+            </div>
+          </div>
+          <div class="card3 relative flex flex-column align-center justify-end">
+            <div class="tag2 absolute bg-orange">$ 480</div>
+            <h5 class="no-space">Tokyo</h5>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill">location_on</span>
+              <p>Japan</p>
+            </div>
+          </div>
+          <div class="card3 relative flex flex-column align-center justify-end">
+            <div class="tag2 absolute bg-orange">$ 899</div>
+            <h5 class="no-space">Rhodes</h5>
+            <div class="flex flex-row align-center g-c-4">
+              <span class="material-symbols-outlined fill">location_on</span>
+              <p>Greece</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h2>Preview 04</h2>
+        <div class="card4 relative flex flex-column justify-between">
+          <div class="tag3 bg-purple t-white absolute">Details</div>
+          <div class="flex flex-column g-r-8">
+            <div class="flex flex-row align-center justify-between">
+              <div class="flex flex-column">
+                <h5 class="no-space">Bangkok</h5>
+                <div class="flex flex-row g-c-2">
+                  <span class="material-symbols-outlined fill t-purope"
+                    >location_on</span
+                  >Thailand
+                </div>
+              </div>
+              <div class="flex flex-column">
+                <p class="no-space">From</p>
+                <h5 class="no-space">$ 1000</h5>
+              </div>
+            </div>
+            <p>
+              Marvelous culinary and cultural trip to the Thai capital with its
+              wonderful monuments and Buddha statues.
+            </p>
+          </div>
+          <div class="flex flex-row align-center justify-between">
+            <div class="flex flex-row g-c-2 align-center">
+              <span class="t-purple material-symbols-outlined fill"
+                >schedule</span
+              >
+              <p>10 Days</p>
+            </div>
+            <div class="flex flex-row g-c-2 align-center">
+              <span class="t-purple material-symbols-outlined fill"></span>
+              <p>Difficult</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h2>Preview 05</h2>
+        <div class="card5 relative flex flex-column justify-around">
+          <div
+            class="tag absolute flex flex-row align-center t-white bg-gray g-c-2"
+          >
+            <span class="material-symbols-outlined fill">location_on</span>
+            <p class="no-space">Egypt</p>
+          </div>
+          <h5>Nile</h5>
+          <div class="flex flex-row align-center g-c-2">
+            <p class="no-space">From</p>
+            <h5 class="no-space">$ 500</h5>
+          </div>
+          <div class="flex flex-row justify-around bg-white rounded">
+            <div class="flex flex-row align-center g-c-2">
+              <span class="material-symbols-outlined fill t-orange"
+                >schedule</span
+              >
+              <p>1 Week</p>
+            </div>
+            <div class="flex flex-row align-center g-c-2">
+              <span class="material-symbols-outlined fill t-orange"></span>
+              <p>Easy</p>
+            </div>
+          </div>
+          <p>
+            Witness the grandeur of the pyramids and temples while sailing down
+            the Nile river on a felucca boat.
+          </p>
+          <button class="btn-green bg-orange w-full btn-text-sm">
+            Details
+          </button>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h2>Preview 06</h2>
+        <div class="card6 flex flex-row justify-start g-c-4">
+          <img src="./image/preview/kyoto.svg" alt="" />
+          <div class="flex flex-column justify-around align-start">
+            <h5 class="no-space">Kyoto</h5>
+            <div class="flex flex-row align-center g-c-2">
+              <span class="material-symbols-outlined fill">location_on</span>
+              <p class="no-space">Japan</p>
+            </div>
+            <div class="flex flex-row align-center g-c-2">
+              <span class="material-symbols-outlined fill"></span>
+              <p class="no-space">From</p>
+              <h5 class="t-yellow no-space">$450</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-column align-center">
+        <h4>With All Previews</h4>
+        <h2>Full WIdth Solutions</h2>
+        <div class="grid t-white">
+          <div class="card7 flex flex-column justify-end relative align-center">
+            <div class="tag6 absolute bg-green">$ 490</div>
+            <h5>Chiang Mai</h5>
+            <div class="flex flex-row align-center g-c-2">
+              <span class="material-symbols-outlined fill">location_on</span>
+              <p class="no-space">Thailand</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="flex flex-column align-center g-r-8">
+        <div class="oval">
+          <img src="image/logo.svg" alt="Logo" class="logo" />
+        </div>
+        <h1>Travel beyond your imagination, with our Travel Agency!</h1>
+        <div>
+          <h2>Address</h2>
+          <p>Flower Ave,</p>
+          <p>Colombo 07,</p>
+          <p>Sri Lanka.</p>
+        </div>
+        <div class="flex flex-row g-c-5 align-center social_icons">
+          <a href=""
+            ><img src="./image/social_icons/facebook.svg" alt="Facebook"
+          /></a>
+          <a href=""
+            ><img src="./image/social_icons/twitter.svg" alt="Facebook"
+          /></a>
+          <a href=""
+            ><img src="./image/social_icons/youtube.svg" alt="Facebook"
+          /></a>
+        </div>
+        <div class="flex flex-column align-center">
+          <h2>Contact</h2>
+          <button class="btn-green btn_blog">
+            contact@horizon-explorers.com
+          </button>
+          <h1>+94 77 5200 106</h1>
+        </div>
+        <div class="copyright flex flex-row align-center g-c-4">
+          <span class="material-symbols-outlined"> copyright </span>
+          <p>2024 Fuchsius (PVT) Ltd. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
