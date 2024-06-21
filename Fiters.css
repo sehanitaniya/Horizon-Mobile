@@ -5,6 +5,11 @@ main {
 input {
   height: 1rem !important;
   width: auto !important;
+  background-color: white !important;
+}
+
+select {
+  background-color: white !important;
 }
 
 .grid {
