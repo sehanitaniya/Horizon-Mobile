@@ -1,3 +1,15 @@
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    }
+
+
+
+
 .pri-btn{
     width: 400px;
 height: 50px;
@@ -55,7 +67,7 @@ border-radius: 15px 15px 0px 0px;
  width: 74.89px;
  height: 25px; 
 top: 3451px;
-left: 14px;
+margin-right:75% ;
 border-radius: 15px;
 border: none;
 margin-bottom: 5%;
