@@ -1,23 +1,136 @@
-.nav-col
-{
-    background-color:var( --green);
+.pro-2 {
+    border: 6px solid white;
+    border-radius: 50%;
+    margin-top: 85px;
 }
 
-.pro-2
-    
-{
-   border: 6px solid white;
-   border-radius: 50%;
-   margin-top: 25%;
-}
-.pro-1{
-    margin-top: 15%;
-    margin-bottom: 30%;
- 
-
-
+.pro-1 {
+    /* margin-top: -95px; */
+    z-index: 0;
+    width: 100%;
+    margin-top: 35px;
 }
 
+header {
+    z-index: 1;
+    background-color: rgba(255, 255, 225, 0.7);
+    backdrop-filter: blur(0.5);
+}
+
+.first {
+    margin-top: 100px;
+}
+
+.reviews h2 {
+    font-size: 1rem;
+}
+
+.reviews p,
+.reviews span {
+    font-size: 0.8rem;
+}
+
+.t-yellow {
+    color: #e5a925;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid1 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.b-bottom {
+    border-bottom: 1px solid black;
+}
+
+.b-left {
+    border-left: 1px solid black;
+}
+
+.b-right {
+    border-right: 1px solid black;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.card1 {
+    height: 150px;
+    max-height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+
+.card1:first-of-type {
+    background-image: url(./image/profile/chiang_mai.svg);
+}
+
+.card1:nth-of-type(2) {
+    background-image: url(./image/profile/chao_phraya.svg);
+}
+
+.card1:nth-of-type(3) {
+    background-image: url(./image/profile/bangkok.svg);
+}
+
+.card1:nth-of-type(4) {
+    background-image: url(./image/profile/nara.svg);
+}
+
+.card1:nth-of-type(5) {
+    background-image: url(./image/profile/tokyo.svg);
+}
+
+.card1:nth-of-type(6) {
+    background-image: url(./image/profile/malibu.svg);
+}
+
+.card2 {
+    height: 300px;
+    margin: 20px;
+    border-radius: 18px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.card2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 18px;
+    color: var(--white);
+}
+
+.card2:first-of-type {
+    background-image: url(./image/profile/europe.jpg);
+}
+
+.card2:nth-of-type(2) {
+    background-image: url(./image/profile/top10.jpg);
+}
 
 /* Profile */
 width: 428px;
@@ -529,7 +642,8 @@ border-radius: 15px;
 /* Rectangle 616 */
 width: 380px;
 height: 300px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), rgba(0, 0, 0, 0.23);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)),
+rgba(0, 0, 0, 0.23);
 border-radius: 15px;
 /* Top 10 Beaches in Tailand */
 width: 236px;
