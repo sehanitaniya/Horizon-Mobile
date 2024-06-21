@@ -1,63 +1,85 @@
-.pri-btn{
+.pri-btn {
     width: 400px;
-height: 50px;
-top: 1235.5px;
-left: 17px;
-border-radius: 0px 0px 30px 30px;
-border: none;
+    height: 50px;
+    top: 1235.5px;
+    left: 17px;
+    border-radius: 0px 0px 30px 30px;
+    border: none;
 
-background-color: var(--green);
+    background-color: var(--green);
 
 }
 
 
 
-.div3{
+.div3 {
+
+
+    border-radius: 30px;
+
+    background-color: #434A54;
+    ;
+
+
+}
+
+.bg-blue {
+    background-color: #43b9d4 !important;
+}
+
+.special {
+    position: relative;
+    background-color: var(--gray);
+    letter-spacing: 0.2em;
+}
+
+.special::before {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.div4 {
     margin-top: 5%;
     width: 400px;
 
-top: -88px;
-left: 7px;
+    top: -88px;
+    left: 7px;
 
-border-radius: 30px ;
-
-background-color:#434A54;
-;
-
-
+    border-radius: 30px;
+    margin-bottom: 5%;
 }
-.div4{
-    margin-top: 5%;
+
+.pri-im {
     width: 400px;
+    height: 350px;
+    top: 624px;
+    left: 17px;
 
-top: -88px;
-left: 7px;
-
-border-radius: 30px ;
-margin-bottom: 5%;
-}
-
-.pri-im{
-    width: 400px;
-height: 350px;
-top: 624px;
-left: 17px;
-
-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 
 
 }
-.price4{
+
+.price4 {
     margin-top: 10%;
     margin-bottom: 5%;
 }
-.pr-btn2{
- width: 74.89px;
- height: 25px; 
-top: 3451px;
-left: 14px;
-border-radius: 15px;
-border: none;
-margin-bottom: 5%;
+
+.pr-btn2 {
+    width: 74.89px;
+    height: 25px;
+    top: 3451px;
+    left: 14px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5%;
 
 }

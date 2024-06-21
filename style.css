@@ -4,7 +4,7 @@
 
 :root {
   --green: #3cc09a;
-  --light-green: #d2edee;
+  --light-green: #a5f7e1;
   --red: #f2001f;
   --light-red: #f1778b;
   --purple: #3f0eff;
@@ -22,7 +22,6 @@ main {
   background: #ffffff;
 }
 
-input[type="radio"] {}
 
 /* Common classes */
 .flex {
@@ -35,6 +34,14 @@ input[type="radio"] {}
 
 .flex-column {
   flex-direction: column;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.t-no-wrap {
+  text-wrap: nowrap;
 }
 
 .justify-center {
@@ -260,6 +267,10 @@ input[type="radio"] {}
 
 .t-green {
   color: var(--green);
+}
+
+.t-light-green {
+  color: var(--light-green);
 }
 
 .t-white {
