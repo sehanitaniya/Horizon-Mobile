@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="Fiters.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <h1>Select your destination :</h1>
-      <button class="fil">All Destinations</button>
+      <select class="fil">
+        <option value="All Destinations">All Destinations</option>
+      </select>
       <h1>Select your date :</h1>
-      <button class="fil"></button>
+      <input type="date" class="fil" />
       <h1>Typologies :</h1>
       <input type="checkbox" id="top1" value="top1" />
       <label for="top1"> Sports Activities</label><br />
@@ -33,60 +36,80 @@
       <label for="top9"> Adventure Travel</label><br />
       <input type="checkbox" id="top10" value="top10" />
       <label for="top10"> Cultural Tours</label>
-
-      <h1>Max Price :</h1>
-      <input type="checkbox" id="max" value="max" />
-      <label for="max"> See only promotions</label>
-
-
-
-      <div class="flex flex-row align-center justify-between w-full">
-        <button class="btn-green btn-text-sm bg-pink">Details</button>
-        <div class="flex flex-row align-center g-c-2">
-          <h1>$1000</h1>
-          <div class="flex flex-column align-end no-space">
-            <p class="no-space">From</p>
-            <h5 class="no-space t-gray strikethrough">$ 1023</h5>
-          </div>
+      <div class="flex flex-column">
+        <h1>Max Price :</h1>
+        <h2 class="self-end" for="price">$ 5000</h2>
+        <input
+          type="range"
+          name="price"
+          id="price"
+          min="100"
+          max="5000"
+          step="500"
+        />
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="max" value="max" />
+          <label for="max"> See only promotions</label>
         </div>
-
-
-
+      </div>
 
       <h1>Durations :</h1>
-     <div class="flex flex-row align-center w-full ">
-      <div class="flex flex-column">
-      <input type="checkbox" id="du1" value="du1" />
-      <label for="du2"> 1 Week</label><br />
-      <input type="checkbox" id="du2" value="du2" />
-      <label for="du3"> 10 Days</label><br />
-      <div class="flex flex-column">
-      <input type="checkbox" id="du3" value="du3" />
-      <label for="du3"> 15 Days</label><br />
-      <input type="checkbox" id="du4" value="du4" />
-      <label for="du4"> 5 Days</label><br />
-    </div>
+      <div class="grid">
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="du1" value="du1" />
+          <label for="du2"> 1 Week</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="du2" value="du2" />
+          <label for="du3"> 10 Days</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="du3" value="du3" />
+          <label for="du3"> 15 Days</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="du4" value="du4" />
+          <label for="du4"> 5 Days</label>
+        </div>
+      </div>
       <h1>Difficulty :</h1>
-
-      <input type="checkbox" id="di1" value="di1" />
-      <label for="di1"> Challenging</label><br />
-      <input type="checkbox" id="di2" value="di3" />
-      <label for="di2"> Easy</label><br />
-      <input type="checkbox" id="di3" value="di3" />
-      <label for="di3">Difficult</label><br />
-      <input type="checkbox" id="di4" value="di4" />
-      <label for="di4"> Medium</label>
-
+      <div class="grid">
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="di1" value="di1" />
+          <label for="di1"> Challenging</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="di2" value="di3" />
+          <label for="di2"> Easy</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="di3" value="di3" />
+          <label for="di3">Difficult</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="di4" value="di4" />
+          <label for="di4"> Medium</label>
+        </div>
+      </div>
       <h1>Min Age :</h1>
-
-      <input type="checkbox" id="min1" value="min1" />
-      <label for="min1"> 0</label><br />
-      <input type="checkbox" id="min2" value="min2" />
-      <label for="min2"> 18</label><br />
-      <input type="checkbox" id="min3" value="min3" />
-      <label for="min3"> 16</label><br />
-      <input type="checkbox" id="min4" value="min4" />
-      <label for="min4"> 5 </label><br />
+      <div class="grid">
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="min1" value="min1" />
+          <label for="min1"> 0</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="min2" value="min2" />
+          <label for="min2"> 18</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="min3" value="min3" />
+          <label for="min3"> 16</label>
+        </div>
+        <div class="flex flex-row align-center g-c-4">
+          <input type="checkbox" id="min4" value="min4" />
+          <label for="min4"> 5 </label>
+        </div>
+      </div>
     </main>
   </body>
 </html>
