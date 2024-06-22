@@ -1,15 +1,21 @@
-.login-div{
+.login-div {
     margin-top: 363px;
 
 }
-.login-form{
+
+.login-form {
     margin-top: 13%;
 }
 
-.login-h1{
+.login-h1 {
     margin-top: 10%;
 
 }
-.email{
+
+.email {
     text-indent: 8%;
+}
+
+main {
+    overflow: hidden;
 }
