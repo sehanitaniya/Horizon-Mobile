@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+@import url(https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
 :root {
   --green: #3cc09a;
-  --light-green: #d2edee;
+  --light-green: #a5f7e1;
   --red: #f2001f;
   --light-red: #f1778b;
   --purple: #3f0eff;
@@ -18,7 +22,6 @@ main {
   background: #ffffff;
 }
 
-input[type="radio"] {}
 
 /* Common classes */
 .flex {
@@ -31,6 +34,14 @@ input[type="radio"] {}
 
 .flex-column {
   flex-direction: column;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.t-no-wrap {
+  text-wrap: nowrap;
 }
 
 .justify-center {
@@ -256,6 +267,10 @@ input[type="radio"] {}
 
 .t-green {
   color: var(--green);
+}
+
+.t-light-green {
+  color: var(--light-green);
 }
 
 .t-white {
@@ -642,13 +657,13 @@ footer .logo {
   width: 28px;
 }
 
-hr{
+hr {
   width: 317.33px;
-height: 1px;
-top: 125px;
-left: 30px;
+  height: 1px;
+  top: 125px;
+  left: 30px;
 
-border: 1px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
 
 
 }

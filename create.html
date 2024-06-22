@@ -15,7 +15,7 @@
         <h1 class="create-acc">Create Account</h1>
         <img src="image/upload.svg" class="create-upload" />
         <form class="flex flex-column align-center">
-          <div>
+          <div class="flex flex-column w-full">
             <input
               type=" submit"
               name="email"
@@ -28,17 +28,18 @@
               placeholder="Password"
               class="email"
             />
-
-            <select class="absolute country-dropdown"></select>
-            <option value="flag"></option>
-
-            <input
-              type="number"
-              class="country-text-indent"
-              name=""
-              id=""
-              placeholder="Your Number"
-            />
+            <div class="relative">
+              <select class="absolute country-dropdown">
+                <option value="flag"></option>
+              </select>
+              <input
+                type="number"
+                class="country-text-indent"
+                name=""
+                id=""
+                placeholder="Your Number"
+              />
+            </div>
             <!-- <img src="./image/country.svg" /> -->
           </div>
           <button class="btn-start">Done</button>

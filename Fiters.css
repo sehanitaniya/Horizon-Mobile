@@ -1,36 +1,21 @@
 main {
-    margin: auto;
-    width: 214px;
-    height: 1390px;
-    background: #FFFFFF;
-  }
-  h1{
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
-     line-height: 23px;
-     font-family: Poppins;
- 
-     font-weight: 700;
-     line-height: 30px;
-     text-align: left;
-
-    
-
-  }
-.fil{
-    width: 172px;
-height: 25px;
-top: 41px;
-left: 10px;
- gap: 0px;
-opacity: 0px;
-
+  max-width: calc(375px * 75 / 100);
 }
 
+input {
+  height: 1rem !important;
+  width: auto !important;
+  background-color: white !important;
+}
 
+select {
+  background-color: white !important;
+}
 
-
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 
 
