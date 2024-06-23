@@ -14,9 +14,13 @@ cite {
   font-style: normal;
 }
 hr {
-  width: 100%;
-  border: 4px solid black;
-  margin-bottom: 10px;
+  width: 376px;
+ 
+  top: 829px;
+  left: 27px;
+  border-radius: 2px 0px 0px 0px;
+  
+  
 }
 figure {
   height: 350px;
