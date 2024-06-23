@@ -293,6 +293,10 @@ main {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .strikethrough {
   text-decoration-line: line-through;
 }
